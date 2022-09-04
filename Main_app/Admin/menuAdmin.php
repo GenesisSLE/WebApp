@@ -4,13 +4,13 @@
 <html>
 <head>
     <title>a</title>
-    <link rel="stylesheet" type="text/css" href="css/styleHeader.css">
-     <link rel="stylesheet" type="text/css" href="css/styleMenuAdmin.css">
+    <link rel="stylesheet" type="text/css" href="../../css/styleHeader.css">
+     <link rel="stylesheet" type="text/css" href="../../css/styleMenuAdmin.css">
     <meta charset="UTF-8"> 
 </head>
 <body>
 <div class="header">
-<div class="notificacion"><img  src="img/notificacion.png"></div>
+<div class="notificacion"><img  src="../../img/notificacion.png"></div>
 <div class="usuario"><div class="linea"> <img width:"45px" height="45px""img/user.png"> </div></div>
 </div>
 <div class="menuAdmin">
