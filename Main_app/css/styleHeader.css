@@ -1,15 +1,24 @@
 body {
     background-color:rgba(13, 51, 54, 1);
 }
+
 div.usuario{
-    background-color:red;
+    background-color:white;
     border-radius:5px;
-    width:45px;
+    width:150px;
     height:40px;
     position:absolute;
     right:10px;
     top:9px;
 }
+
+div.usuario h2{
+    color:black;
+    font-size:20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
 div.header{
 background-color:black;
 width:100%;
@@ -19,6 +28,7 @@ position:fixed;
 top:0px;
 left:0px
 }
+
 div.notificacion{
     border-radius:100%;
     width:45px;
@@ -44,8 +54,9 @@ div.linea{
     height:40px;
     position:relative;
     left:45px;
-} 
-}div.linea img{
+}
+
+div.linea img{
    width:36px;
     height:35px;
     position:relative;
