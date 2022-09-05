@@ -5,7 +5,7 @@ body {
 div.usuario{
     background-color:white;
     border-radius:5px;
-    width:150px;
+    width:160px;
     height:40px;
     position:absolute;
     right:10px;
@@ -16,7 +16,9 @@ div.usuario h2{
     color:black;
     font-size:20px;
     text-align: center;
+    position: relative;
     font-family: 'Poppins', sans-serif;
+    top: -10px;
 }
 
 div.header{
@@ -48,18 +50,9 @@ div.notificacion img{
     top:5px;
     left:5px;
 }
-div.linea{
-    background-color:black;
-    width:2px;
-    height:40px;
-    position:relative;
-    left:45px;
-}
 
-div.linea img{
-   width:36px;
-    height:35px;
-    position:relative;
-    left:-40px;
-    top:2px;
+div.icon {
+position: relative;
+top: -57px;
+right: -7px;
 }

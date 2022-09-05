@@ -1,7 +1,7 @@
 <?php
 require 'conexion.php';
-sleep(1);
-$usuarios = $mysqli->query("SELECT Nombre,TipoUsuario FROM usuarios WHERE Nombre='".$_POST['usuariolg']."' AND Contraseña ='".$_POST['passlg']."'");
+sleep(4);
+$usuarios = $mysqli->query("SELECT Nombre, TipoUsuario FROM usuarios WHERE Nombre='".$_POST['usuariolg']."' AND pass ='".$_POST['passlg']."'");
 
 if($usuarios->num_rows > 1):
 	$datos=$usuarios->fetch_assoc();

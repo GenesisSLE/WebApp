@@ -19,6 +19,9 @@
 <div class="notificacion"><img  src="../../img/notificacion.png"></div>
 <div class="usuario">
     <h2>ADMIN</h2>
+    <div class = "icon">
+        <img src = "../../img/user.png" width = "30px" height = "30px">
+    </div>
 </div>
 </div>
 
