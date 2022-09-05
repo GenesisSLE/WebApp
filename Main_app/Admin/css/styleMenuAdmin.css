@@ -1,0 +1,33 @@
+div.btnUsuario{
+    background-color:black;
+    width:400px;
+    height:80px;
+    position:absolute;
+    top:20%;
+    left:35%;
+    border-radius:10px;
+}
+
+div.btnUsuario h1{
+    color:white;
+    font-size:28px;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+}
+
+div.btnCurso{
+    background-color:black;
+    width:400px;
+    height:80px;
+    position:absolute;
+    top:35%;
+    left:35%;
+    border-radius:10px;
+}
+
+div.btnCurso h1{
+    color:white;
+    font-size:28px;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+}

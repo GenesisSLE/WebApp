@@ -3,9 +3,14 @@
 
 <html>
 <head>
-    <title>a</title>
+    <title>MENU ADMIN</title>
     <link rel="stylesheet" type="text/css" href="../../css/styleHeader.css">
-     <link rel="stylesheet" type="text/css" href="../../css/styleMenuAdmin.css">
+    <link rel="stylesheet" type="text/css" href="css/styleMenuAdmin.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    
     <meta charset="UTF-8"> 
 </head>
 <body>
@@ -13,20 +18,10 @@
 <div class="notificacion"><img  src="../../img/notificacion.png"></div>
 <div class="usuario"><div class="linea"> <img width:"45px" height="45px""img/user.png"> </div></div>
 </div>
-<div class="menuAdmin">
-<div class="TituloMenu"><h1>Opciones</h1></div>
-<div class="lineaMenu"></div>
-<div class="formAdmin">
-  <form action="RedirigirAdmin.php"method="post">
-            <input type="text" name="nombre" placeholder="Usuario"><br>
-            <input type="password" name="contrasena" placeholder="Contraseña">
-            <input class="BtLogin"type="submit" name="submit" value="Entrar">
-            
-            </form>
-            
 
+<div class="btnUsuario"><h1>Usuario</h1></div>
 
-</div>
-</div>
+<div class="btnCurso"><h1>Curso</h1></div>
+
 </body>
 </html>

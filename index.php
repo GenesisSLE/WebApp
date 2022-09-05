@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-
 <html>
+
 <head>
-    <title>a</title>
+    <title>LOGIN</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="UTF-8"> 
 </head>
+
 <body>
 
 
@@ -22,8 +23,9 @@
 
     </div>
 </div>
- <script  src="js/jquery-3.6.1.js"></script>
-    <script src="js/Main.js"></script>
+ 
+<script  src="js/jquery-3.6.1.js"></script>
+<script src="js/Main.js"></script>
 
 
 </body>
