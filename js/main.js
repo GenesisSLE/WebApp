@@ -2,7 +2,7 @@ jQuery(document).on('submit','#formlg',function(event){
 	event.preventDefault();
 
 	jQuery.ajax({
-		url:'ain/login.php',
+		url:'main/login.php',
 		type:'POST',
 		dataType:'json',
 		data:$(this).serialize(),
@@ -34,7 +34,7 @@ jQuery(document).on('submit','#formlg',function(event){
 			setTimeout(function(){
 
 			},3000);
-			location.href = 'ain/Admin/menuAdmin.php';
+			location.href = 'main/Admin/menuAdmin.php';
 		}else if(respuesta.tipo == 3){
 			const Toast = Swal.mixin({
 				toast: true,
@@ -52,7 +52,7 @@ jQuery(document).on('submit','#formlg',function(event){
 				icon: 'success',
 				title: 'Bienvenido!'
 			  })
-			location.href = 'ain/Usuario/usuario.html';
+			location.href = 'main/Usuario/usuario.html';
 		}
 	}else{
 		$('.error').slideUp('slow');
