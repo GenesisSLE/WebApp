@@ -34,7 +34,7 @@ jQuery(document).on('submit','#formlg',function(event){
 			setTimeout(function(){
 
 			},3000);
-			location.href = 'main/Admin/menuAdmin.php';
+			location.href = 'main/admin/menuAdmin.php';
 		}else if(respuesta.tipo == 3){
 			const Toast = Swal.mixin({
 				toast: true,
