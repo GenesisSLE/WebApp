@@ -1,33 +1,22 @@
-div.btnUsuario{
-    background-color:black;
+div.btn{
+    background-color:#2E3332;
     width:400px;
     height:80px;
-    position:absolute;
-    top:20%;
-    left:35%;
-    border-radius:10px;
+    border-radius:15px;
 }
 
-div.btnUsuario h1{
+div.btn h1{
     color:white;
     font-size:28px;
     text-align:center;
     font-family: 'Poppins', sans-serif;
 }
 
-div.btnCurso{
-    background-color:black;
-    width:400px;
-    height:80px;
-    position:absolute;
-    top:35%;
-    left:35%;
-    border-radius:10px;
-}
-
-div.btnCurso h1{
-    color:white;
-    font-size:28px;
-    text-align:center;
-    font-family: 'Poppins', sans-serif;
+div.cont {
+    position: absolute;
+    align-items: center;
+    top:40%;
+    right: 30%;
+    width:420px;
+    height:390px;
 }

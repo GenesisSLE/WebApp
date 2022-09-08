@@ -18,8 +18,8 @@
         <form action="" id="formlg" method = "post">
             <input class="usr" type="text" name="usuariolg" placeholder="Usuario"><br>
             <input class="pwd" type="password" name="passlg" placeholder="Contraseña"><br>
-            <input class="BtLogin" type="submit" value="Iniciar sesion"name="botonlg"> 
-            </form>
+            <input class="BtLogin" type="submit" value="Iniciar sesion" name="botonlg"> 
+        </form>
 
     </div>
 </div>

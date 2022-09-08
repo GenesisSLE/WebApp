@@ -1,5 +1,5 @@
 body {
-    background-color:rgba(13, 51, 54, 1);
+    background-color:#ACE7FF;
 }
 
 div.usuario{
@@ -22,10 +22,9 @@ div.usuario h2{
 }
 
 div.header{
-background-color:black;
+background-color: #2E3332;
 width:100%;
 height:62px;
-border-radius:10px;
 position:fixed;
 top:0px;
 left:0px
