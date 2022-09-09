@@ -25,9 +25,18 @@
 </div>
 </div>
 
+<div class = "logo">
+<img src = "../../img/logo1.png" width = "200px" height = "200px">
+</div>
 <div class="cont">
-    <div class="btn"><h1>Usuario</h1></div>
-    <div class="btn"><h1>Curso</h1></div>
+    <div class="dropdown">
+    <button class="dropbtn">Usuario</button>
+    <div class="dropdown-content" style="left:0;">
+        <a href="cfg/usuario/alta.php">Alta</a>
+        <a href="cfg/usuario/baja.php">Baja</a>
+        <a href="cfg/usuario/mod.php">Modificación</a>
+    </div>
+</div>
 </div>
 
 </body>
