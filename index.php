@@ -2,25 +2,24 @@
 <html>
 
 <head>
-    <title>LOGIN</title>
+    <title>
+        LOGIN
+    </title>
+    
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
 
-
 <div class ="login">
-
-<div class="logo"> <img class="classLogo"src="img/logo1.png"> </div>
-
+<div class="logo"> <img class="classLogo"src="img/logo1.png"></div>
     <div class ="form">
         <form action="" id="formlg" method = "post">
             <input class="usr" type="text" name="usuariolg" placeholder="Usuario"><br>
             <input class="pwd" type="password" name="passlg" placeholder="Contraseña"><br>
             <input class="BtLogin" type="submit" value="Iniciar sesion" name="botonlg"> 
         </form>
-
     </div>
 </div>
  
