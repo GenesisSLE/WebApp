@@ -25,6 +25,17 @@
 </div>
 </div>
 
+<div class = "logo">
+<img src = "../../../../img/logo1.png" width = "200px" height = "200px">
+</div>
+
+<div class = "formulario">
+        <form id="formaltausr" method = "post">
+            <input class="curso" type="text" name="cursoA" placeholder="Curso"><br>
+            <input class="grupo" type="text" name="grupoA" placeholder="Grupo">
+        </form>
+</div>
+
 </body>
 
 </html>
