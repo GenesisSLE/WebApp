@@ -32,9 +32,8 @@ jQuery(document).on('submit','#formlg',function(event){
 				title: 'Bienvenido!'
 			  })
 			setTimeout(function(){
-
+				location.href = 'main/admin/menuAdmin.php';
 			},3000);
-			location.href = 'main/admin/menuAdmin.php';
 		}else if(respuesta.tipo == 3){
 			const Toast = Swal.mixin({
 				toast: true,
@@ -52,7 +51,10 @@ jQuery(document).on('submit','#formlg',function(event){
 				icon: 'success',
 				title: 'Bienvenido!'
 			  })
-			location.href = 'main/Usuario/usuario.html';
+
+			setTimeout(function(){
+				location.href = 'main/Usuario/usuario.html';
+			},3000);
 		}
 	}else{
 		$('.error').slideUp('slow');
