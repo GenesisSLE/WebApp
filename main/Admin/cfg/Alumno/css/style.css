@@ -2,7 +2,9 @@
     display: block;
 	position:absolute;
     top: 40%;
-	left: 10%;
+	left: 36%;
+    width: 360px;
+    height: 900px;
 }
 
 input{
@@ -70,5 +72,6 @@ div.tarjeta{
     .logo {
     position: absolute;
     top: 12%;
-    left: 15%;
+    left: 43%;
     }
+    

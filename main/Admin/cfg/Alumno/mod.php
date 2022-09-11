@@ -1,3 +1,12 @@
+<?php
+ session_start();
+ $elusu = $_SESSION['usu'];
+ var_dump($_SESSION['usu']);
+ if($elusu == null || $elusu == '') {
+   header("location:../../ErrorSession.php");
+    die();
+ }
+?>
 <!DOCTYPE html>
 
 <html>

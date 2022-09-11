@@ -4,5 +4,5 @@
 	echo $elusu;
 	
 	session_destroy();
-	header('location:../ErrorSession.php');
+	header('location:../../index.php"');
 ?>

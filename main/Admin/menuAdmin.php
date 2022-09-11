@@ -1,4 +1,12 @@
-
+<?php
+ session_start();
+ $elusu = $_SESSION['usu'];
+ var_dump($_SESSION['usu']);
+ if($elusu == null || $elusu == '') {
+   header("location:../../ErrorSession.php");
+    die();
+ }
+?>
 <!DOCTYPE html>
 
 <html>
@@ -18,9 +26,12 @@
 <div class="header">
 <div class="notificacion"><img  src="../../img/notificacion.png"></div>
 <div class="usuario">
-    <h2>ADMIN</h2>
+    <h2>Admin</h2>
     <div class = "icon">
         <img src = "../../img/user.png" width = "30px" height = "30px">
+        <div class="btnCerrarSesion">
+           <a href="../../index.php"><img alt="CerrarSesion"width = "33px" height = "33px"src="../../img/cerrar-sesion.png"></a>
+        </div>
     </div>
 </div>
 </div>
@@ -30,11 +41,11 @@
 </div>
 <div class="cont">
     <div class="dropdown">
-    <button class="dropbtn">Usuario</button>
+    <button class="dropbtn">Alumno</button>
     <div class="dropdown-content" style="left:0;">
-        <a href="cfg/usuario/alta.php">Alta</a>
-        <a href="cfg/usuario/baja.php">Baja</a>
-        <a href="cfg/usuario/mod.php">Modificación</a>
+        <a href="cfg/Alumno/alta.php">Alta</a>
+        <a href="cfg/Alumno/baja.php">Baja</a>
+        <a href="cfg/Alumno/mod.php">Modificación</a>
     </div>
 </div>
 </div>

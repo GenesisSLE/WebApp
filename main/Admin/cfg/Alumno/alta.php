@@ -1,3 +1,12 @@
+<?php
+ session_start();
+ $elusu = $_SESSION['usu'];
+ var_dump($_SESSION['usu']);
+ if($elusu == null || $elusu == '') {
+   header("location:../../ErrorSession.php");
+    die();
+ }
+?>
 <!DOCTYPE html>
 
 <html>
@@ -31,8 +40,10 @@
 
 <div class = "formulario">
         <form id="formaltausr" method = "post">
-            <input class="curso" type="text" name="cursoA" placeholder="Curso"><br>
-            <input class="grupo" type="text" name="grupoA" placeholder="Grupo">
+            <input class="Nombre" type="text" name="NombreA" placeholder="Nombre"><br>
+            <input class="Gmail" type="text" name="GmailA" placeholder="Gmail">
+             <input class="Gmail" type="password" name="GmailA" placeholder="Contraseña">
+             
         </form>
 </div>
 
