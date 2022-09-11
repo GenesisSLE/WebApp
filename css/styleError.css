@@ -1,0 +1,44 @@
+body{
+	background-color:#a3eeff ;
+}
+img.logitou{
+	width: 150px;
+	height: 150px;
+}
+button{
+	width: 350px;
+	height: 50px;
+	background-color: black;
+	position: relative;
+	top: 240px;
+	left: 25px;
+	border-radius: 8px;
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	cursor: pointer;
+}
+h1{
+	font-family:Georgia ;
+	font-size: 29px;
+	position: relative;
+	left: 38px;
+	top: 48px;
+}
+div.caja{
+width: 400px;
+height: 550px;
+position: absolute;
+top: 22%;
+left: 35%;
+background-color: #00adff5c;
+border-radius: 8px;
+
+border: 3px solid black;
+}
+div.logito{
+position: relative;
+top: 55px;
+left: 122px;
+
+}
