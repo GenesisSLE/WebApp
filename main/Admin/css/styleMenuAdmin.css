@@ -19,7 +19,11 @@ div.btn h1{
     text-align:center;
     font-family: 'Poppins', sans-serif;
 }
-
+div.btnCerrarSesion{
+    position: relative;
+    left: 118px;
+    top: -36px;
+}
 .dropbtn {
     background-color:#2E3332;
     color: white;
