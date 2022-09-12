@@ -1,4 +1,5 @@
 <?php
+session_start();
 require 'conexion.php';
 sleep(4);
 $usuarios = $mysqli->query("SELECT Nombre, TipoUsuario FROM usuarios WHERE Nombre='".$_POST['usuariolg']."' AND pass ='".$_POST['passlg']."'");
