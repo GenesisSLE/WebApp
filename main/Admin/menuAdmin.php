@@ -41,11 +41,11 @@
 </div>
 <div class="cont">
     <div class="dropdown">
-    <button class="dropbtn">Alumno</button>
+    <button class="dropbtn">Admin</button>
     <div class="dropdown-content" style="left:0;">
-        <a href="cfg/Alumno/alta.php">Alta</a>
-        <a href="cfg/Alumno/baja.php">Baja</a>
-        <a href="cfg/Alumno/mod.php">Modificación</a>
+        <a href="cfg/Admin/alta.php">Alta</a>
+        <a href="cfg/Admin/baja.php">Baja</a>
+        <a href="cfg/Admin/mod.php">Modificación</a>
     </div>
 </div>
 </div>
