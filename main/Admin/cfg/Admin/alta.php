@@ -6,7 +6,6 @@
     <link rel="stylesheet" type="text/css" href="../../../css/styleHeader.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
@@ -37,7 +36,7 @@
             <input type="submit" name="botonlg"class="botonEnviar"value="Agregar admin">
         </form>
 </div>
-
+<script src="../../../../js/jquery-3.6.1.js"></script>
 </body>
 
 </html>

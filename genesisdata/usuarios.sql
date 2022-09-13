@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 09-09-2022 a las 01:57:54
+-- Tiempo de generación: 13-09-2022 a las 01:49:49
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.1.6
 
@@ -42,7 +42,6 @@ INSERT INTO `usuarios` (`Nombre`, `pass`, `TipoUsuario`) VALUES
 ('Marcos', 1234, 3),
 ('Marta', 1234, 1),
 ('Marcos', 1234, 3),
-('', 0, 0),
 ('Marcos', 1234, 3);
 COMMIT;
 
