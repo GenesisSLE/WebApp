@@ -6,7 +6,9 @@
    header("location:../../ErrorSession.php");
     die();
  }
+ $conexion= mysqli_connect('localhost','root','','genesisdata');
 ?>
+
 <!DOCTYPE html>
 
 <html>
@@ -14,7 +16,7 @@
     <title>MENU ADMIN</title>
     <link rel="stylesheet" type="text/css" href="../../../css/styleHeader.css">
     <link rel="stylesheet" type="text/css" href="../../css/styleMenuAdmin.css">
-
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -38,11 +40,29 @@
 <img src = "../../../../img/logo1.png" width = "200px" height = "200px">
 </div>
 
-<div class = "formulario">
-        <form id="formaltausr" method = "post">
-            <input class="curso" type="text" name="cursoA" placeholder="Curso"><br>
-            <input class="grupo" type="text" name="grupoA" placeholder="Grupo">
-        </form>
+<div class= "usuarios">
+<table class= "tusuarios">
+<tr>
+<td>Nombre</td>
+<td>Gmail</td>
+<td>Contraseña</td>
+</tr>
+<?php 
+$sql="SELECT * from usuarios";
+$result=mysqli_query($conexion,$sql);
+while($mostrar=mysqli_fetch_array($result)){
+    ?>
+<tr>
+<td><?php echo $mostrar['Nombre'] ?></td>
+<td><?php echo $mostrar['pass'] ?></td>
+<td><?php echo $mostrar['TipoUsuario'] ?></td>
+<td><?php  ?></td>
+</tr>
+<?php
+}
+?>
+</table>
+
 </div>
 
 </body>
