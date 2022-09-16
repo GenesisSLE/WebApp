@@ -6,9 +6,7 @@
    header("location:../../ErrorSession.php");
     die();
  }
- $conexion= mysqli_connect('localhost','root','','genesisdata');
 ?>
-
 <!DOCTYPE html>
 
 <html>
@@ -16,7 +14,7 @@
     <title>MENU ADMIN</title>
     <link rel="stylesheet" type="text/css" href="../../../css/styleHeader.css">
     <link rel="stylesheet" type="text/css" href="../../css/styleMenuAdmin.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -27,7 +25,11 @@
 <body>
 
 <div class="header">
-<div class="notificacion"><img  src="../../../../img/notificacion.png"></div>
+<div class="notificacion"><img  src="../../../../img/notificacion.png">
+  <div class="btnCerrarSesion2">
+           <a href="../../../../index.php"><img alt="CerrarSesion"width = "33px" height = "33px"src="../../../../img/cerrar-sesion.png"></a>
+        </div>
+</div>
 <div class="usuario">
     <h2>ADMIN</h2>
     <div class = "icon">
@@ -40,7 +42,7 @@
 <img src = "../../../../img/logo1.png" width = "200px" height = "200px">
 </div>
 
-<div>
+<div class= "usuarios2">
 <table class= "tusuarios">
 <tr>
 <td>Nombre</td>
@@ -48,19 +50,17 @@
 <td>Contraseña</td>
 </tr>
 <?php 
-$sql="SELECT * from usuarios";
-$result=mysqli_query($conexion,$sql);
-while($mostrar=mysqli_fetch_array($result)){
+//$sql="SELECT * from usuarios";
+//$result=mysqli_query($conexion,$sql);
+//while($mostrar=mysqli_fetch_array($result)){
     ?>
 <tr>
-<td><?php echo $mostrar['Nombre'] ?></td>
-<td><?php echo $mostrar['pass'] ?></td>
-<td><?php echo $mostrar['TipoUsuario'] ?></td>
-<td><?php  ?></td>
+<td><?//php echo $mostrar['Nombre'] ?></td>
+<td><?//php echo $mostrar['pass'] ?></td>
+<td><?//php echo $mostrar['TipoUsuario'] ?></td>
+<td><?//php  ?></td>
 </tr>
-<?php
-}
-?>
+
 </table>
 
 </div>
