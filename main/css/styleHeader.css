@@ -55,3 +55,14 @@ position: relative;
 top: -57px;
 right: -7px;
 }
+div.btnCerrarSesion{
+    position: relative;
+    top: -35px;
+    right: -115px;
+}
+div.btnCerrarSesion2{
+    position: absolute;
+    top: -1px;
+    left: 1350px;
+    z-index: 300;
+}

@@ -20,6 +20,9 @@
     <h2>ADMIN</h2>
     <div class = "icon">
         <img src = "../../../../img/user.png" width = "30px" height = "30px">
+        <div class="btnCerrarSesion">
+           <a href="../../../../index.php"><img alt="CerrarSesion"width = "33px" height = "33px"src="../../../../img/cerrar-sesion.png"></a>
+        </div>
     </div>
 </div>
 </div>

@@ -40,7 +40,7 @@
 <img src = "../../../../img/logo1.png" width = "200px" height = "200px">
 </div>
 
-<div class= "usuarios">
+<div>
 <table class= "tusuarios">
 <tr>
 <td>Nombre</td>
