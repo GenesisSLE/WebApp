@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú lateral responsive - MagtimusPro</title>
+    <title>Libreta</title>
 
     <link rel="stylesheet" href="css/estilos.css">
-
-    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+<link rel="icon" href="img/logo2.png">
+<script src="https://kit.fontawesome.com/a2079a10ef.js" crossorigin="anonymous"></script>
 </head>
 <body id="body">
     
@@ -30,53 +30,72 @@
 
             <a href="#" class="selected">
                 <div class="option">
-                    <i class="fas fa-home" title="Inicio"></i>
-                    <h4>Inicio</h4>
+
+<i class="fa-regular fa-clipboard" title="Alumnos"></i>
+                    <h4>Alumnos</h4>
                 </div>
             </a>
 
             <a href="#">
                 <div class="option">
-                    <i class="far fa-file" title="Portafolio"></i>
-                    <h4>Portafolio</h4>
+          
+                   
+                   <i class="fa-regular fa-calendar-check" title="Lista"></i>
+                    <h4>Lista</h4>
                 </div>
             </a>
             
+          
             <a href="#">
                 <div class="option">
-                    <i class="fas fa-video" title="Cursos"></i>
-                    <h4>Cursos</h4>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="option">
-                    <i class="far fa-sticky-note" title="Blog"></i>
-                    <h4>Blog</h4>
+<i class="fa-regular fa-pen-to-square"></i>              <h4>Visado</h4>
                 </div>
             </a>
 
 
             <a href="#">
                 <div class="option">
-                    <i class="far fa-address-card" title="Nosotros"></i>
-                    <h4>Nosotros</h4>
+                    <i class="fa-regular fa-folder"></i>
+                    <h4>Planificacion</h4>
                 </div>
             </a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 			<a href="#">
                 <div class="option">
-                
-           <a href="../../index.php"><img alt="CerrarSesion" width = "33px" height = "33px"src="../../img/cerrar-sesion.png"></a>
-
+              <i class="fa-solid fa-door-open"></i>
+<h4>Salir</h4>
                 </div>
+               
             </a>
         </div>
 
     </div>
 
     <main>
-        <div class="tarAlumno">
+        <div class="tarAlumno"></div>
     </main>
 
     <script src="js/script.js"></script>
