@@ -244,13 +244,14 @@ div.btnCerrarSesion{
     right: -115px;
 }
 
-.barrita{
+.barrita {
     position: relative;
     background-color: #FFFFFF;
-    width: 256px;
-    height: 40px;
+    width: 327px;
+    height: 41px;
     margin-bottom: 30px;
     margin-left: 500px;
     border-radius: 100px;
-    left:-82%;
-}
+    left: -90%;
+    top: 5%;
+  }
