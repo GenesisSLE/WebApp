@@ -19,6 +19,8 @@
 
 <div class = "cuadrado">
     <h1>Libretas</h1>
+    <div class="barrita">
+    </div>
 </div>
 
 </body>
