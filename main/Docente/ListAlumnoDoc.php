@@ -67,7 +67,7 @@
 			<a href="#">
                 <div class="option">
                 
-           <a href="../../index.php"><img alt="CerrarSesion"width = "33px" height = "33px"src="../../img/cerrar-sesion.png"></a>
+           <a href="../../index.php"><img alt="CerrarSesion" width = "33px" height = "33px"src="../../img/cerrar-sesion.png"></a>
 
                 </div>
             </a>
@@ -76,7 +76,7 @@
     </div>
 
     <main>
-        <div class="tarAlumno"
+        <div class="tarAlumno">
     </main>
 
     <script src="js/script.js"></script>
