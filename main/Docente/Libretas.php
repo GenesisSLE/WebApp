@@ -18,10 +18,8 @@
 </div>
 
 <div class="cuadrado">
-
+    <h1>Libreta</h1>
+    <div class="barrita"></div>
 </div>
-
-
-
 	</body>
 	</html>
