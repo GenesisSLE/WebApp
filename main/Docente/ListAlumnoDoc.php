@@ -31,8 +31,7 @@
             <a href="#" class="selected">
                 <div class="option">
 
-
-        <i class="fa-regular fa-clipboard" title="Alumnos"></i>
+<i class="fa-regular fa-clipboard" title="Alumnos"></i>
                     <h4>Alumnos</h4>
                 </div>
             </a>
@@ -49,15 +48,21 @@
           
             <a href="#">
                 <div class="option">
-        <i class="fa-regular fa-pen-to-square"></i>              <h4>Visado</h4>
+<i class="fa-regular fa-pen-to-square"></i>              <h4>Visado</h4>
                 </div>
             </a>
 
 
             <a href="#">
                 <div class="option">
-                    <i class="fa-regular fa-folder"></i>
+                    <i class="fa-regular fa-folder" title="Planificacion"></i>
                     <h4>Planificacion</h4>
+                </div>
+            </a>
+            <a href="manual/manual.html">
+                <div class="option">
+                    <i class="fa-regular fa-address-book" title="manual"></i>
+                    <h4>Manual</h4>
                 </div>
             </a>
 <br>
@@ -79,15 +84,12 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
 
 
-			<a href="Libretas.php">
+			<a href="#">
                 <div class="option">
               <i class="fa-solid fa-door-open"></i>
-    <h4>Salir</h4>
+            <h4>Salir</h4>
                 </div>
                
             </a>
