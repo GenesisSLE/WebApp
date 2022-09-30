@@ -31,6 +31,7 @@
             <a href="#" class="selected">
                 <div class="option">
 
+
         <i class="fa-regular fa-clipboard" title="Alumnos"></i>
                     <h4>Alumnos</h4>
                 </div>
