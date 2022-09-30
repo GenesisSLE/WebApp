@@ -198,3 +198,19 @@ right: 16px;
         left: -80px;
     }
 }
+
+.cuadrado{
+    background-color: rgba(104, 255, 255, 0.61);
+    display: block;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 500px;
+	height: 700px;
+}
