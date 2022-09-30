@@ -1,3 +1,7 @@
+body {
+    background-color:#ACE7FF;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 *{
@@ -42,41 +46,6 @@ header{
     font-size: 20px;
     cursor: pointer;
     position: absolute;
-}
-div.usuario{
-    background-color:#21c5c7;
-    border-radius:5px;
-    width:180px;
-    height:40px;
-    position:fixed;
-    right:20px;
-    top:19px;
-}
-div.usuario h2{
-    color:black;
-    font-size:20px;
-    text-align: center;
-    position: relative;
-    font-family: 'Poppins', sans-serif;
-    top: 10px;
-}
-div.icon {
-position: absolute;
-top: 5px;
-right: 140px;
-z-index: 300;
-}
-div.btnCerrarSesion{
-    position: relative;
-    top: -36px;
-    right: -136px;
-    z-index: 300;
-}
-div.btnCerrarSesion2{
-    position: absolute;
-    top: -2px;
-    left: 1205px;
-    z-index: 300;
 }
 .menu__side{
     width: 80px;
@@ -213,4 +182,77 @@ right: 16px;
     transform: translate(-50%, -50%);
 	width: 500px;
 	height: 700px;
+    text-align: center;
 }
+
+div.usuario{
+    background-color:white;
+    border-radius:5px;
+    width:160px;
+    height:40px;
+    position:absolute;
+    right:10px;
+    top:9px;
+}
+
+div.usuario h2{
+    color:black;
+    font-size:20px;
+    text-align: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    top: 8px;
+}
+
+div.header{
+background-color: #2E3332;
+width:100%;
+height:62px;
+position:fixed;
+top:0px;
+left:0px
+}
+
+div.notificacion{
+    border-radius:100%;
+    width:45px;
+    height:45px;
+    background-color:white;   
+    position:relative;
+    top:9px;
+    left:20px;
+}
+
+div.notificacion img{
+    border-radius:100%;
+    width:36px;
+    height:35px;
+    display: block;
+    position:relative;
+    top:5px;
+    left:5px;
+}
+
+div.icon {
+position: relative;
+top: -19px;
+right: -7px;
+}
+div.btnCerrarSesion{
+    position: relative;
+    top: -35px;
+    right: -115px;
+}
+
+.barrita {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 327px;
+    height: 41px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    border-radius: 100px;
+    left: -90%;
+    top: 5%;
+    box-shadow:0 1px 1px rgba(0,0,0,0.12),0 2px 2px rgba(0,0,0,0.12),0 4px 4px rgba(0,0,0,0.12),0 8px 8px rgba(0,0,0,0.12),0 16px 16px rgba(0,0,0,0.12);
+  }
