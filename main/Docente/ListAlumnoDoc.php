@@ -31,7 +31,7 @@
             <a href="#" class="selected">
                 <div class="option">
 
-<i class="fa-regular fa-clipboard" title="Alumnos"></i>
+        <i class="fa-regular fa-clipboard" title="Alumnos"></i>
                     <h4>Alumnos</h4>
                 </div>
             </a>
@@ -48,7 +48,7 @@
           
             <a href="#">
                 <div class="option">
-<i class="fa-regular fa-pen-to-square"></i>              <h4>Visado</h4>
+        <i class="fa-regular fa-pen-to-square"></i>              <h4>Visado</h4>
                 </div>
             </a>
 
@@ -83,10 +83,10 @@
 <br>
 
 
-			<a href="#">
+			<a href="Libretas.php">
                 <div class="option">
               <i class="fa-solid fa-door-open"></i>
-<h4>Salir</h4>
+    <h4>Salir</h4>
                 </div>
                
             </a>
