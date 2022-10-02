@@ -1,0 +1,62 @@
+.titulo{
+    background-color: #21c5c7;
+    text-align: center;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    border-radius: 20px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin-top: 40px;
+    background-color: #21c5c7;
+}
+.explicacion{
+    margin: 0 auto;
+    
+    margin-left: 150px;
+    width: 1000px;
+    height: 300px;
+}
+
+.imagenMan{
+    margin-left: 50px;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+.titulito{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.textoLargo{
+    font-size: 20px;
+}
+.row{
+    margin-top: 40px;
+}
+.col-4{
+    margin-left: 200px;
+}
+.col-8{
+    width: 800px;
+    height: 300px;
+}
+.volver{
+    border-radius: 30px;
+    background-color: #21c5c7;
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    left: 47%;
+}

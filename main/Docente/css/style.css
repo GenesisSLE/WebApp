@@ -43,29 +43,7 @@ header{
     cursor: pointer;
     position: absolute;
 }
-div.usuario{
-    background-color:#21c5c7;
-    border-radius:5px;
-    width:180px;
-    height:40px;
-    position:fixed;
-    right:20px;
-    top:19px;
-}
-div.usuario h2{
-    color:black;
-    font-size:20px;
-    text-align: center;
-    position: relative;
-    font-family: 'Poppins', sans-serif;
-    top: 10px;
-}
-div.icon {
-position: absolute;
-top: 5px;
-right: 140px;
-z-index: 300;
-}
+
 div.btnCerrarSesion{
     position: relative;
     top: -36px;
@@ -196,7 +174,6 @@ right: 16px;
         left: -80px;
     }
 }
-
 
 .container{
     position: relative;
