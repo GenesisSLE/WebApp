@@ -99,7 +99,7 @@ div.btnCerrarSesion2{
 }
 .titulo{
 position: fixed;
-left: 895px;
+left: 50%;
 }
 .options__menu{
     padding: 20px 30px;
@@ -179,97 +179,65 @@ right: 16px;
     }
 }
 
-.cuadrado{
-    background-color: rgba(104, 255, 255, 0.61);
-    display: block;
-    margin: auto;
-    width: 50%;
-    border: 3px solid black;
-    padding: 10px;
-    border-radius: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-	width: 500px;
-	height: 700px;
+.container{
+    position: relative;
+    border-radius: 20px;
+    background: #21c5c7; 
+    width: 250px;
+    height: 300px;
+    left: 5%;
+  }
+  .imagen{
+      width: 250px;
+      height: 250px;
+      border-radius: 20px;
+  
+  }
+
+  .nombre{
+    margin-left: 5px;
+    border-radius: 25px;
+    background: white; 
+    width: 150px;
+    height: 25px;
+    font-size: 10px;
+    position: relative;
+    top: 5px;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
-
-div.usuario{
-    background-color:white;
-    border-radius:5px;
-    width:160px;
-    height:40px;
-    position:absolute;
-    right:10px;
-    top:9px;
-}
-
-div.usuario h2{
-    color:black;
-    font-size:20px;
-    text-align: center;
+.mas{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
     position: relative;
-    font-family: 'Poppins', sans-serif;
-    top: 7px;
+    top: -19px;
+    left: 170px;
 }
-
-div.header{
-background-color: #2E3332;
-width:100%;
-height:62px;
-position:fixed;
-top:0px;
-left:0px
-}
-
-div.notificacion{
-    border-radius:100%;
-    width:45px;
-    height:45px;
-    background-color:white;   
-    position:relative;
-    top:9px;
-    left:20px;
-}
-
-div.notificacion img{
-    border-radius:100%;
-    width:36px;
-    height:35px;
-    display: block;
-    position:relative;
-    top:5px;
-    left:5px;
-}
-
-div.icon {
-position: relative;
-top: -18px;
-right: -7px;
-}
-div.btnCerrarSesion{
+.mas2{
+    width: 20px;
+    height: 20px;
     position: relative;
-    top: -35px;
-    right: -115px;
+    top: 2px;
+    left: 2px;
 }
-div.btnCerrarSesion2{
-    position: absolute;
-    top: -1px;
-    left: 1205px;
-    z-index: 300;
-}
-
-.barrita{
+.triangulo{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
     position: relative;
-    background-color: #FFFFFF;
-    width: 256px ;
-    height: 40px ;
-    margin-bottom: 30px;
-    margin-left: 500px;
-    border-radius: 100px;
-    box-shadow:0 1px 1px rgba(0,0,0,0.12),0 2px 2px rgba(0,0,0,0.12),0 4px 4px rgba(0,0,0,0.12),0 8px 8px rgba(0,0,0,0.12),0 16px 16px rgba(0,0,0,0.12);
-    top: -1%;
-    left: -81%;
+    top: -45px;
+    left: 210px;
+}
+.triangulito{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 4px;
+    left: 2px;
 }
