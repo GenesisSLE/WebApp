@@ -119,7 +119,7 @@ div.btnCerrarSesion2{
 }
 .titulo{
 position: fixed;
-left: 895px;
+left: 50%;
 }
 .options__menu{
     padding: 20px 30px;
@@ -197,4 +197,67 @@ right: 16px;
         width: 80px;
         left: -80px;
     }
+}
+
+.container{
+    position: relative;
+    border-radius: 20px;
+    background: #21c5c7; 
+    width: 250px;
+    height: 300px;
+    left: 5%;
+  }
+  .imagen{
+      width: 250px;
+      height: 250px;
+      border-radius: 20px;
+  
+  }
+
+  .nombre{
+    margin-left: 5px;
+    border-radius: 25px;
+    background: white; 
+    width: 150px;
+    height: 25px;
+    font-size: 10px;
+    position: relative;
+    top: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.mas{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    position: relative;
+    top: -19px;
+    left: 170px;
+}
+.mas2{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+.triangulo{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    position: relative;
+    top: -45px;
+    left: 210px;
+}
+.triangulito{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 4px;
+    left: 2px;
 }

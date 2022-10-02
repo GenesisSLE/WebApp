@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menú lateral responsive - MagtimusPro</title>
 
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </head>
@@ -76,8 +76,21 @@
     </div>
 
     <main>
-        <div class="tarAlumno"
+        <div class="tarAlumno">
     </main>
+
+        <div class="container">
+            <img class="imagen" src="img/persona.jpg"/>
+            <div class="nombre">
+                <h1 class="nombrecito">El pepe</h1>
+            </div>
+            <div class="mas">
+                <img class="mas2" src="img/simbolo mas.png"/>
+            </div>
+            <div class="triangulo">
+                <img class="triangulito" src="img/triangulo.png"/>
+            </div>
+        </div>
 
     <script src="js/script.js"></script>
 </body>
