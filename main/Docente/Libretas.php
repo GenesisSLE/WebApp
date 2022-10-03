@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body class="body">
 <div class="header">
 <div class="notificacion"><img  src="../../img/notificacion.png"></div>
 <div class="usuario">
