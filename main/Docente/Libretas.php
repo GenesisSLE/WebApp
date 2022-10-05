@@ -19,7 +19,18 @@
 
 <div class="cuadrado">
     <h1>Libreta</h1>
-    <div class="barrita"></div>
+    <table >
+
+            <thead>
+                <tr>
+                    
+                 
+                </tr>
+            </thead>
+            <tbody id="table_data"></tbody>
+
+        </table>
 </div>
 	</body>
+    <script src="app.js"></script>
 	</html>
