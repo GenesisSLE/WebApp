@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú</title>
+    <title>Libreta</title>
 
     <link rel="stylesheet" href="css/style.css">
+
 
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </head>
@@ -87,24 +88,22 @@
             </a>
         </div>
     </div>
-
     <main>
-        <div class="tarAlumno">
-    </main>
-
-        <div class="container">
-            <img class="imagen" src="img/persona.jpg"/>
-            <div class="nombre">
-                <h1 class="nombrecito">El pepe</h1>
-            </div>
-            <div class="mas">
-                <img class="mas2" src="img/simbolo mas.png"/>
-            </div>
-            <div class="triangulo">
-                <img class="triangulito" src="img/triangulo.png"/>
+	<div class="previewcntr">
+            <img class="mystupidass" src = "img/tree.jpg" width="100%" height="80%">
+            <div class = "nombrepreview">
+                <h4>Gervasio Gimenez</h4>
             </div>
         </div>
+   <div class="Princi">
+<div class="reloj">
 
+</div>
+<div class="botonEnHora"><p> En hora </p></div>
+<div class="botonFalta"><p>Falta</p></div>
+<div class="botonLlegaTarde"><p>Llega tarde</p></div>
+</div>
+    </main>
     <script src="js/script.js"></script>
 </body>
 </html>
