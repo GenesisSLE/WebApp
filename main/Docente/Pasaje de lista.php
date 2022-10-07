@@ -47,7 +47,7 @@
 <i class="fa-regular fa-pen-to-square"></i>              <h4>Visado</h4>
                 </div>
             </a>
-            <a href="#">
+            <a href="planificacion.html">
                 <div class="option">
                     <i class="fa-regular fa-folder"></i>
                     <h4>Planificacion</h4>
@@ -89,13 +89,17 @@
         </div>
     </div>
     <main>
+        <div class="tarAlumno">
+    </main>
+
 	<div class="previewcntr">
             <img class="mystupidass" src = "img/tree.jpg" width="100%" height="80%">
             <div class = "nombrepreview">
                 <h4>Gervasio Gimenez</h4>
             </div>
-        </div>
-   <div class="Princi">
+    </div>
+
+<div class="Princi">
 <div class="reloj">
 
 </div>
