@@ -89,21 +89,8 @@
     </div>
 
     <main>
-        <div class="tarAlumno">
-    </main>
 
-        <div class="container">
-            <img class="imagen" src="img/persona.jpg"/>
-            <div class="nombre">
-                <h1 class="nombrecito">El pepe</h1>
-            </div>
-            <div class="mas">
-                <img class="mas2" src="img/simbolo mas.png"/>
-            </div>
-            <div class="triangulo">
-                <img class="triangulito" src="img/triangulo.png"/>
-            </div>
-        </div>
+    </main>
 
     <script src="js/script.js"></script>
 </body>
