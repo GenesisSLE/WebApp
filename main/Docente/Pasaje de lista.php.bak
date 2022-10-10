@@ -7,11 +7,13 @@
     <title>Libreta</title>
 
     <link rel="stylesheet" href="css/style.css">
-
+	<link rel="stylesheet" href="css/css.css">
 
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </head>
-<body id="body">
+<body class="body1">
+    
+
     
     <header>
         <div class="icon__menu">
@@ -19,7 +21,6 @@
         </div>
        <h1 class="titulo">Listado</h1>
     </header>
-
     <div class="menu__side" id="menu_side">
         <div class="name__page">
              <img class ="loguitos"src="img/logo2.png">
@@ -47,7 +48,7 @@
 <i class="fa-regular fa-pen-to-square"></i>              <h4>Visado</h4>
                 </div>
             </a>
-            <a href="planificacion.html">
+            <a href="#">
                 <div class="option">
                     <i class="fa-regular fa-folder"></i>
                     <h4>Planificacion</h4>
@@ -68,16 +69,6 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<br>
 
             <a href="Libretas.php">
                 <div class="option">
@@ -89,13 +80,7 @@
         </div>
     </div>
     <main>
-        <div class="izquierda">
-	<div class="previewcntr">
-            <img class="mystupidass" src = "img/tree.jpg" width="100%" height="80%">
-            <div class = "nombrepreview">
-                <h4>Gervasio Gimenez</h4>
-            </div>
-        </div>
+	
    <div class="Princi">
 <div class="reloj">
 
@@ -103,7 +88,6 @@
 <div class="botonEnHora"><p> En hora </p></div>
 <div class="botonFalta"><p>Falta</p></div>
 <div class="botonLlegaTarde"><p>Llega tarde</p></div>
-</div>
 </div>
     </main>
     <script src="js/script.js"></script>
