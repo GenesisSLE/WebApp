@@ -1,0 +1,50 @@
+div.observacionesaaa{
+	position: relative;
+	width: 1228px;
+height: 322px;
+left: 384px;
+top: 80px;
+
+background-color: #FDF0F0;
+border: 2px solid #000000;
+border-radius: 11px;
+}
+div.tituloObs{
+	position: relative;
+	width: 349px;
+height: 58px;
+left: 27px;
+top: 27px;
+
+background: #36C9D4;
+border-radius: 11px;
+}
+div.AntAdjuntados{
+		position: relative;
+	width: 1228px;
+height: 322px;
+left: 384px;
+top: 127px;
+
+background-color: #FDF0F0;
+border: 2px solid #000000;
+border-radius: 11px;
+}
+div.tituloAdj{
+	position: relative;
+	width: 349px;
+height: 58px;
+left: 27px;
+top: 27px;
+
+background: #36C9D4;
+border-radius: 11px;
+}
+.h2 a{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.h2 {
+	margin-top: 10px;
+	margin-left: 5px;
+}

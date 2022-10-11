@@ -31,7 +31,7 @@
                     <h4>Alumnos</h4>
                 </div>
             </a>
-            <a href="#">
+            <a href="Pasaje de lista.php">
                 <div class="option">
           
                    
@@ -75,9 +75,14 @@
 <br>
 <br>
 <br>
-
 <br>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
             <a href="Libretas.php">
                 <div class="option">
               <i class="fa-solid fa-door-open"></i>
