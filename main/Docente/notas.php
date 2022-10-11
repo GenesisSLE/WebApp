@@ -90,6 +90,16 @@
 
     <main>
 
+    <div class = "cntr">
+                <div class="previewcntr">
+                    <h2>Diagnóstico Grupal</h2>
+                    <img class="mystupidass" src = "img/tree.jpg" width="70%" height="60%">
+                    <div class = "nombrepreview">
+                        <h4>Ver</h4>
+                    </div>
+                </div>
+    </div>
+    
     </main>
 
     <script src="js/script.js"></script>
