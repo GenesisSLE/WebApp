@@ -1,24 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+<link rel="stylesheet" href="css/estilosaa.css">
+    <title> Detalles del alumno </title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú</title>
+    
 
     <link rel="stylesheet" href="css/style.css">
 
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </head>
 <body id="body">
-      <div class="indPagina"><h2>Alumnos</h2></div>
+        <div class="indPagina"><h2>Informacion</h2></div>
     <header>
         <div class="icon__menu">
             <i class="fas fa-bars" id="btn_open"></i>
         </div>
-      
+       
     </header>
-  
+
     <div class="menu__side" id="menu_side">
         <div class="name__page">
              <img class ="loguitos"src="img/logo2.png">
@@ -76,7 +77,7 @@
 <br>
 <br>
 
-<br>
+
 
             <a href="Libretas.php">
                 <div class="option">
@@ -88,26 +89,78 @@
         </div>
     </div>
 
+   
+    
+    
     <main>
-        
-        <div class="container">
-            <a href="Detalles del alumno.php">
-            <img class="imagen" src="img/persona.jpg"/>
-        </a>
-            <div class="nombre">
-                <h1 class="nombrecito">Santiago Soto</h1>
-            </div>
-            <div class="mas">
-                <img class="mas2" src="img/simbolo mas.png"/>
-            </div>
-            <div class="triangulo">
-                <img class="triangulito" src="img/triangulo.png"/>
-            </div>
+        <div class="colocando">
+    <div class="cuadrado2">
+        <div class="observaciones" id="item1">
+                <h2> Juan Amaral </h2>
         </div>
- 
-    </main>
 
-       
-    <script src="js/script.js"></script>
+
+        <div class="descripciones" id="item2">
+                <h2> Juicio... </h2>
+        </div>
+
+
+        
+
+
+    </div>
+
+    <div class="foto">
+    </div>
+
+
+    
+   
+
+
+
+   
+
+    <div class="tablita">
+        
+        <table class="tabla"> 
+
+
+            <thead>
+              <tr>
+                 <th class="tabla"> Nombre Completo </th>
+                 <th class="tabla"> Numero </th>
+                 <th class="tabla"> Correo </th>
+                 <th class="tabla"> Promedio </th>
+              </tr>  
+            </thead>
+    
+    
+    
+            <tbody class="tablilla">
+                <tr>
+                    <td class="tabla"> Juan Amaral </td>
+                    <td class="tabla"> 098658079 </td>
+                    <td class="tabla"> juanira2013@gmail.com </td>
+                    <td class="tabla"> 10 </td>
+                </tr>
+    
+    
+    
+    
+    
+            </tbody>
+    
+    
+        </table>
+
+    </div>
+    <div class="botonCorrecciones"><h3>Calificaciones</h3></div>
+<div class="botonAntecedentes"><h3>Antecedentes</h3></div>
+</div>
+
+</main>
+
+
 </body>
 </html>

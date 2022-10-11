@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Libreta</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
-<body>
-    <div class="cuadrado">
-
+<body class="body">
+<div class="header">
+<div class="notificacion"><img  src="../../img/notificacion.png"></div>
+<div class="usuario">
+    <h2>Admin</h2>
+    <div class = "icon">
+      <img src = "../../img/user.png" width = "30px" height = "30px">
+        <div class="btnCerrarSesion">
+           <a href="../../index.php"><img alt="CerrarSesion"width = "33px" height = "33px"src="../../img/cerrar-sesion.png"></a>
+        </div>  
     </div>
-</body>
+</div>
+</div>
+
+<div class="cuadrado">
+    <h1>Libreta</h1>
+    <table >
+
+            <thead>
+                <tr>
+                    
+                 
+                </tr>
+            </thead>
+            <tbody id="table_data"></tbody>
+
+        </table>
+</div>
+	</body>
+    <script src="app.js"></script>
+	</html>

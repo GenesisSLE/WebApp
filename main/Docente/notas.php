@@ -11,14 +11,14 @@
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </head>
 <body id="body">
-      <div class="indPagina"><h2>Alumnos</h2></div>
+    
     <header>
         <div class="icon__menu">
             <i class="fas fa-bars" id="btn_open"></i>
         </div>
-      
+       <h1 class="titulo">Listado</h1>
     </header>
-  
+
     <div class="menu__side" id="menu_side">
         <div class="name__page">
              <img class ="loguitos"src="img/logo2.png">
@@ -89,25 +89,19 @@
     </div>
 
     <main>
-        
-        <div class="container">
-            <a href="Detalles del alumno.php">
-            <img class="imagen" src="img/persona.jpg"/>
-        </a>
-            <div class="nombre">
-                <h1 class="nombrecito">Santiago Soto</h1>
-            </div>
-            <div class="mas">
-                <img class="mas2" src="img/simbolo mas.png"/>
-            </div>
-            <div class="triangulo">
-                <img class="triangulito" src="img/triangulo.png"/>
-            </div>
-        </div>
- 
+
+    <div class = "cntr">
+                <div class="previewcntr">
+                    <h2>Diagnóstico Grupal</h2>
+                    <img class="mystupidass" src = "img/tree.jpg" width="70%" height="60%">
+                    <div class = "nombrepreview">
+                        <h4>Ver</h4>
+                    </div>
+                </div>
+    </div>
+    
     </main>
 
-       
     <script src="js/script.js"></script>
 </body>
 </html>

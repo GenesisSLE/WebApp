@@ -1,0 +1,72 @@
+
+div.Princi{
+	background-color:white;
+	border-radius:10px;
+	width:239px;
+	height:291px;
+	border:2px solid black;
+}
+div.reloj{
+	position:relative;
+	top:0px;
+	right:0px;
+	width:239px;
+	height:169px;
+	background-color:grey;
+	border-radius:10px;
+	
+}
+div.botonEnHora{
+	background-color:#62cf43;
+	position:relative;
+	top:5px;
+	height:20px;
+left:23px;
+	width:188px;
+	border-radius:20px;
+}
+div.botonEnHora p{
+font-size:15px;
+text-align:center;
+}
+div.botonFalta{
+	background-color:red;
+	position:relative;
+	top:3px;
+	left:23px;
+	height:20px;
+	width:188px;
+	border-radius:20px;
+}
+div.botonFalta p{
+font-size:15px;
+text-align:center;
+}
+div.botonLlegaTarde{
+	background-color:#ff803c;
+	position:relative;
+	top:1px;
+	height:20px;
+	left:23px;
+	width:188px;
+	border-radius:20px;
+	
+}
+div.botonLlegaTarde p{
+font-size:15px;
+text-align:center;
+vertical-align:middle;
+
+}
+
+div.indPagina{
+
+	position: absolute;
+width: 123px;
+height: 31px;
+left: 1297px;
+top: 119px;
+
+background: #D9D9D9;
+border-radius: 100px 0px 0px 0px;
+}
