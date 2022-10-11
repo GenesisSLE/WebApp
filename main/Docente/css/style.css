@@ -2,9 +2,6 @@
     background-color:#ACE7FF;
 }
 
-.body1 {
-    background-color:#FFFFFF;
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
@@ -92,7 +89,7 @@ header{
 }
 .titulo{
 position: fixed;
-left: 895px;
+left: 50%;
 }
 .options__menu{
     padding: 20px 30px;
@@ -322,4 +319,188 @@ div.btnCerrarSesion{
     position: relative;
     top: 4px;
     left: 2px;
+}
+
+
+
+.previewcntr{
+    position: relative;
+    border: 5px solid black;
+    border-radius: 20px; 
+    width: 250px;
+    height: 300px;
+    left: 5%;
+}
+
+.nombrepreview{
+    position: absolute;
+    border: 4px solid black;
+    border-radius: 30px;
+    width: 214px;
+    height: 32px;
+    left: 5%;
+    top: 83%;
+    justify-content: center;
+}
+
+.nombrepreview h4{
+    position: absolute;
+    top:-45%;
+    left: 5%;
+    text-align: center;
+}
+
+.mystupidass{
+    border-radius: 15px;
+}
+
+div.Princi{
+    background-color:white;
+    border-radius:10px;
+    width:239px;
+    height:291px;
+    border:2px solid black;
+}
+div.reloj{
+    position:relative;
+    top:0px;
+    right:0px;
+    width:239px;
+    height:169px;
+    background-color:grey;
+    border-radius:10px;
+    
+}
+div.botonEnHora{
+    background-color:#62cf43;
+    position:relative;
+    top:5px;
+    height:20px;
+left:23px;
+    width:188px;
+    border-radius:20px;
+}
+div.botonEnHora p{
+font-size:15px;
+text-align:center;
+}
+div.botonFalta{
+    background-color:red;
+    position:relative;
+    top:3px;
+    left:23px;
+    height:20px;
+    width:188px;
+    border-radius:20px;
+}
+div.botonFalta p{
+font-size:15px;
+text-align:center;
+}
+div.botonLlegaTarde{
+    background-color:#ff803c;
+    position:relative;
+    top:1px;
+    height:20px;
+    left:23px;
+    width:188px;
+    border-radius:20px;
+    
+}
+div.botonLlegaTarde p{
+font-size:15px;
+text-align:center;
+vertical-align:middle;
+
+}
+
+.previewcntr{
+    display: inline-block;
+    position: relative;
+    border: 5px solid black;
+    border-radius: 20px; 
+    width: 250px;
+    height: 300px;
+    left: 5%;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.previewcntr h2{
+    top: -5%;
+    left: 5%;
+    position: absolute;
+    text-align: center;
+}
+
+.previewcntr1{
+    display: inline-block;
+    position: relative;
+    border: 5px solid black;
+    border-radius: 20px; 
+    width: 250px;
+    height: 300px;
+    left: 5%;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.previewcntr1 h2{
+    top: -5%;
+    left: 5%;
+    position: absolute;
+    text-align: center;
+}
+
+.previewcntr2{
+    display: inline-block;
+    position: relative;
+    border: 5px solid black;
+    border-radius: 20px; 
+    width: 250px;
+    height: 300px;
+    left: 5%;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.previewcntr2 h3{
+    top: -10px;
+    left: 12%;
+    position: absolute;
+    text-align: center;
+}
+
+.nombrepreview{
+    position: absolute;
+    border: 4px solid black;
+    border-radius: 30px;
+    width: 214px;
+    height: 32px;
+    left: 5%;
+    top: 83%;
+    justify-content: center;
+}
+
+.nombrepreview h4{
+    position: absolute;
+    top:-45%;
+    left: 43%;
+    text-align: center;
+}
+
+.mystupidass{
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 20px;
+    left: 13%;
+    top: 17%;
+}
+
+.cntr{
+    position: relative;
+    top: 50%;
+    left: 20%;
+    width: 100%;
+    height: 100%;
 }

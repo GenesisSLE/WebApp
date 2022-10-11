@@ -89,21 +89,18 @@
     </div>
 
     <main>
-        <div class="tarAlumno">
-    </main>
 
-        <div class="container">
-            <img class="imagen" src="img/persona.jpg"/>
-            <div class="nombre">
-                <h1 class="nombrecito">El pepe</h1>
-            </div>
-            <div class="mas">
-                <img class="mas2" src="img/simbolo mas.png"/>
-            </div>
-            <div class="triangulo">
-                <img class="triangulito" src="img/triangulo.png"/>
-            </div>
-        </div>
+    <div class = "cntr">
+                <div class="previewcntr">
+                    <h2>Diagnóstico Grupal</h2>
+                    <img class="mystupidass" src = "img/tree.jpg" width="70%" height="60%">
+                    <div class = "nombrepreview">
+                        <h4>Ver</h4>
+                    </div>
+                </div>
+    </div>
+    
+    </main>
 
     <script src="js/script.js"></script>
 </body>
