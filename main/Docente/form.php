@@ -15,26 +15,21 @@
 <div class = "cntrform">
                 <div class="previewcntrform">
                     <div class = "tipos">
-                        <h4 class="tipo">Tipo</h4><h4 class="fecha">Fecha</h4><h4 class="nota">Nota</h4>
+                        <span class="tipo">Tipo</span>
+                        <span class="fecha">Fecha</span>
+                        <span class="nota">Nota</span>
                     </div>
                 </div>
 
                 <div class="formulario">
                     <form method = "post">
-                        <input class="formtipo" type="radio" name="tipo" required placeholder="Tipo">
-                        <input class="formtipo" type="radio" name="tipo1" required placeholder="Tipo">
+                        <input class="formtipo" type="radio" name="check1" required placeholder="Tipo">
+                        <input class="formtipo" type="radio" name="check1" required placeholder="Tipo">
                         <input class="formnota" type="number" name="nota" min="1" max="12" required placeholder="Nota">
-
-                        <label>
-    <input type="checkbox" class="radio" value="1" name="fooby[2][]" />Tiger</label>
-  <label>
-    <input type="checkbox" class="radio" value="1" name="fooby[2][]" />Sloth</label>
-  <label>
-    <input type="checkbox" class="radio" value="1" name="fooby[2][]" />Cheetah</label>
-</div>
                     </form>
                 </div>
 </div>
 
+<script src="app.js"></script>
 </body>
 </html>
