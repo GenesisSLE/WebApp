@@ -8,13 +8,9 @@ fetch('listar.php')
         str += `
         <br>
             <tr>
-                
                 <td class="barrita">${item.Nombre}                ${item.Grado}               ${item.Curso}</td>
-                
-    
             </tr>
-            <br>
-        `
+        <br>`
     });
 
     document.getElementById('table_data').innerHTML = str;
