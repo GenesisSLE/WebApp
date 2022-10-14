@@ -1,0 +1,80 @@
+div.observacionesaaa{
+	position: relative;
+	width: 1228px;
+height: 322px;
+left: 279px;
+top: 40px;
+
+background-color: #FDF0F0;
+border: 2px solid #000000;
+border-radius: 11px;
+box-shadow: 0px 0px 2px 1px;
+}
+div.tituloObs{
+	position: relative;
+	width: 100%;
+height: 58px;
+left: 0px;
+top: 0px;
+
+background: #36C9D4;
+border-radius: 11px;
+}
+div.AntAdjuntados{
+		position: relative;
+	width: 1228px;
+height: 322px;
+left: 279px;
+top: 87px;
+
+background-color: #FDF0F0;
+border: 2px solid #000000;
+border-radius: 11px;
+box-shadow: 0px 0px 2px 1px;
+}
+div.tituloAdj{
+	position: relative;
+	width: 100%;
+height: 58px;
+left: 0px;
+top: 0px;
+
+background: #36C9D4;
+border-radius: 11px;
+}
+
+div.tituloObs h2{
+	position: relative;
+	font-size: 25px;
+	top: 16px;
+	left: 20px;
+}
+div.tituloAdj h2{
+	position: relative;
+	font-size: 25px;
+	top: 16px;
+	left: 20px;
+}
+
+.botonDescarga{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	background-color:#36C9D4 ;
+	position: fixed;
+	bottom: 20px;
+	right: 20px	;
+	cursor: pointer;
+}
+.botonDescarga img{
+		width: 70px;
+	height: 70px;
+	border-radius: 100%;
+}
+.CampoTexto{
+	width: 100%;
+	height: 82%;
+	resize: none;
+	font-size: 20px;
+
+}
