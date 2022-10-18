@@ -18,27 +18,28 @@
                     </div>
             
 
-                    <form method = "post" class="formulario">
+                    <form method = "post" class="formulario" name="FormularioNotas">
                         <div class="formtipo">
-                            <input type="radio" name="check1" required placeholder="Tipo">
-                            <input type="radio" name="check1" required placeholder="Tipo">
+                            <input type="radio" name="check1"  value="Teorico">
+                            <input type="radio" name="check1"  value="Practico">
                         </div>
                         
                         <div class = "divnota">
-                            <input class="formnota" type="number" name="nota" min="1" max="12">
+                            <input id="Nota"class="formnota" type="number" name="nota" min="1" max="12">
                         </div>
+                     <input type="button" name="" class= "btnguardar" onclick="obtenerNotas()">
+                    
+                
                     </form>
                 </div>
 
-                <div class= "btnguardar">
-                    <img src="img/disquete.png" height="100%" width="100%">
-                </div>
+                
 
                 <div class = "txttipodenota">
                     <p>T P</p>
                 </div>
             </div>
 
-<script src="app.js"></script>
+<script src="js/js.js"></script>
 </body>
 </html>
