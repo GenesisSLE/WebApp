@@ -40,6 +40,105 @@
                 </div>
             </div>
 
+            <div class="notasform">
+                <div class = "campo1">
+                    <div class = "tipos1">
+                        <span class="fecha">Enero</span>
+                    </div>
+                </div>
+
+                    <div class = "txttiposde">
+                        <span class="tipo1">Tipo</span>
+                        <span class="fecha1">Fecha</span>
+                        <span class="nota1">Nota</span>
+                    </div>
+
+                
+            <div class = "filas">
+                <div class = "txttipodenota1">
+                    <p>T P</p>
+                </div>
+
+                <div class = "txtfecha">
+                    <p>22/10</p>
+                </div>
+
+                <div class = "txtnota">
+                    <p>12</p>
+                </div>
+            </div>
+
+            <div class = "filas1">
+                <div class = "txttipodenota1">
+                    <p>T P</p>
+                </div>
+
+                <div class = "txtfecha">
+                    <p>22/10</p>
+                </div>
+
+                <div class = "txtnota">
+                    <p>12</p>
+                </div>
+            </div>
+
+            <div class = "filas2">
+                <div class = "txttipodenota1">
+                    <p>T P</p>
+                </div>
+
+                <div class = "txtfecha">
+                    <p>22/10</p>
+                </div>
+
+                <div class = "txtnota">
+                    <p>12</p>
+                </div>
+            </div>
+
+            <div class = "filas3">
+                <div class = "txttipodenota1">
+                    <p>T P</p>
+                </div>
+
+                <div class = "txtfecha">
+                    <p>22/10</p>
+                </div>
+
+                <div class = "txtnota">
+                    <p>12</p>
+                </div>
+            </div>
+
+            <div class = "filas4">
+                <div class = "txttipodenota1">
+                    <p>T P</p>
+                </div>
+
+                <div class = "txtfecha">
+                    <p>22/10</p>
+                </div>
+
+                <div class = "txtnota">
+                    <p>12</p>
+                </div>
+            </div>
+
+            <div class = "filas5">
+                <div class = "txttipodenota1">
+                    <p>T P</p>
+                </div>
+
+                <div class = "txtfecha">
+                    <p>22/10</p>
+                </div>
+
+                <div class = "txtnota">
+                    <p>12</p>
+                </div>
+            </div>
+            </div>
+
 <script src="js/js.js"></script>
 </body>
 </html>

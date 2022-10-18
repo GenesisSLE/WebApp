@@ -102,3 +102,121 @@ body{
     top: -3px;
     left: 26px;
 }
+
+.notasform{
+    display: inline-block;
+    position: absolute;
+    border: 4px solid black;
+    border-radius: 20px; 
+    width: 240px;
+    height: 600px;
+    left: 500px;
+    margin-right: 20px;
+}
+
+.tipos1{
+    position: relative;
+    background-color: #d1d1d1;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 232px;
+    height: 32px;
+    left: -11px;
+    top: -10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.campo1{
+    position: relative;
+    top: 10px;
+    left: 11px;
+    width: 209px;
+    height: 70px;
+}
+
+.tipo1{
+    position: relative;
+    left:10px;
+}
+
+.fecha{
+    position: relative;
+}
+
+.txttipodenota1{
+    position: relative;
+    width: 30px;
+    top: -10px;
+    left: 26px;
+}
+
+.txtfecha{
+    position: relative;
+    top: -33px;
+    left: 89px;
+}
+
+.txtnota{
+    position: relative;
+    left: 170px;
+    top: -55px;
+}
+
+.filas{
+    position: relative;
+    height:30px;
+    top: 0px;
+}
+
+.filas1{
+    position: relative;
+    height:30px;
+    top: 10px;
+}
+
+.filas2{
+    position: relative;
+    height:30px;
+    top: 20px;
+}
+
+.filas3{
+    position: relative;
+    height:30px;
+    top: 30px;
+}
+
+.filas4{
+    position: relative;
+    height:30px;
+    top: 40px;
+}
+
+.filas5{
+    position: relative;
+    height:30px;
+    top: 50px;
+}
+
+.txttiposde{
+    top: -30px;
+    left: 14px;
+    position: relative;
+    font-weight: bold;
+}
+
+.tipo1{
+    position: relative;
+    left:10px;
+}
+
+.nota1{
+    position: relative;
+    left: 56px;
+}
+
+.fecha1{
+    position: relative;
+    left: 38px;
+}
