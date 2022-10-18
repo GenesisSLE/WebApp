@@ -18,27 +18,127 @@
                     </div>
             
 
-                    <form method = "post" class="formulario">
+                    <form method = "post" class="formulario" name="FormularioNotas">
                         <div class="formtipo">
-                            <input type="radio" name="check1" required placeholder="Tipo">
-                            <input type="radio" name="check1" required placeholder="Tipo">
+                            <input type="radio" name="check1"  value="Teorico">
+                            <input type="radio" name="check1"  value="Practico">
                         </div>
                         
                         <div class = "divnota">
-                            <input class="formnota" type="number" name="nota" min="1" max="12">
+                            <input id="Nota"class="formnota" type="number" name="nota" min="1" max="12">
                         </div>
+                     <input type="button" name="" class= "btnguardar" onclick="obtenerNotas()">
+                    
+                
                     </form>
                 </div>
 
-                <div class= "btnguardar">
-                    <img src="img/disquete.png" height="100%" width="100%">
-                </div>
+                
 
                 <div class = "txttipodenota">
                     <p>T P</p>
                 </div>
             </div>
 
-<script src="app.js"></script>
+            <div class="notasform">
+                <div class = "campo1">
+                    <div class = "tipos1">
+                        <span class="fecha">Enero</span>
+                    </div>
+                </div>
+
+                    <div class = "txttiposde">
+                        <span class="tipo1">Tipo</span>
+                        <span class="fecha1">Fecha</span>
+                        <span class="nota1">Nota</span>
+                    </div>
+
+                
+            <div class = "filas">
+                <div class = "txttipodenota1">
+                    <p>T P</p>
+                </div>
+
+                <div class = "txtfecha">
+                    <p>22/10</p>
+                </div>
+
+                <div class = "txtnota">
+                    <p>12</p>
+                </div>
+            </div>
+
+            <div class = "filas1">
+                <div class = "txttipodenota1">
+                    <p>T P</p>
+                </div>
+
+                <div class = "txtfecha">
+                    <p>22/10</p>
+                </div>
+
+                <div class = "txtnota">
+                    <p>12</p>
+                </div>
+            </div>
+
+            <div class = "filas2">
+                <div class = "txttipodenota1">
+                    <p>T P</p>
+                </div>
+
+                <div class = "txtfecha">
+                    <p>22/10</p>
+                </div>
+
+                <div class = "txtnota">
+                    <p>12</p>
+                </div>
+            </div>
+
+            <div class = "filas3">
+                <div class = "txttipodenota1">
+                    <p>T P</p>
+                </div>
+
+                <div class = "txtfecha">
+                    <p>22/10</p>
+                </div>
+
+                <div class = "txtnota">
+                    <p>12</p>
+                </div>
+            </div>
+
+            <div class = "filas4">
+                <div class = "txttipodenota1">
+                    <p>T P</p>
+                </div>
+
+                <div class = "txtfecha">
+                    <p>22/10</p>
+                </div>
+
+                <div class = "txtnota">
+                    <p>12</p>
+                </div>
+            </div>
+
+            <div class = "filas5">
+                <div class = "txttipodenota1">
+                    <p>T P</p>
+                </div>
+
+                <div class = "txtfecha">
+                    <p>22/10</p>
+                </div>
+
+                <div class = "txtnota">
+                    <p>12</p>
+                </div>
+            </div>
+            </div>
+
+<script src="js/js.js"></script>
 </body>
 </html>
