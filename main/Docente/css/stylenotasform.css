@@ -56,7 +56,6 @@ body{
 }
 
 .formulario{
-    display: flex;
     position: relative;
     top: 7px;
 }
@@ -74,7 +73,8 @@ body{
 
 .divnota{
     position: relative;
-    left: 26px;
+    left: 62px;
+    top: -20px;
 }
 
 .campo{
@@ -92,13 +92,13 @@ body{
     border-radius: 30px;
     width: 80px;
     height: 71px;
-    top: -60px;
-    left: 123px;
+    top: -83px;
+    left: 116px;
 }
 
 .txttipodenota{
     position: relative;
     width: 30px;
-    top: -71px;
+    top: -3px;
     left: 26px;
 }
