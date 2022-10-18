@@ -10,23 +10,34 @@
 </head>
 
 <body id="body">
-<div class = "cntrform">
-                <div class="previewcntrform">
+            <div class="previewcntrform">
+                <div class = "campo">
                     <div class = "tipos">
                         <span class="tipo">Tipo</span>
-                        <span class="fecha">Fecha</span>
                         <span class="nota">Nota</span>
                     </div>
-                </div>
+            
 
-                <div class="formulario">
-                    <form method = "post">
-                        <input class="formtipo" type="radio" name="check1" required placeholder="Tipo">
-                        <input class="formtipo" type="radio" name="check1" required placeholder="Tipo">
-                        <input class="formnota" type="number" name="nota" min="1" max="12" required placeholder="Nota">
+                    <form method = "post" class="formulario">
+                        <div class="formtipo">
+                            <input type="radio" name="check1" required placeholder="Tipo">
+                            <input type="radio" name="check1" required placeholder="Tipo">
+                        </div>
+                        
+                        <div class = "divnota">
+                            <input class="formnota" type="number" name="nota" min="1" max="12">
+                        </div>
                     </form>
                 </div>
-</div>
+
+                <div class= "btnguardar">
+                    <img src="img/disquete.png" height="100%" width="100%">
+                </div>
+
+                <div class = "txttipodenota">
+                    <p>T P</p>
+                </div>
+            </div>
 
 <script src="app.js"></script>
 </body>
