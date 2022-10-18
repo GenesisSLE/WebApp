@@ -156,11 +156,11 @@
 
     </div>
     <div class="botonCorrecciones"><h3>Calificaciones</h3></div>
-<div class="botonAntecedentes"><h3>Antecedentes</h3></div>
+<a href="antecedentes.html"><div class="botonAntecedentes"><h3>Antecedentes</h3></div></a>
 </div>
 
 </main>
 
-
+<script src="js/script.js"></script>
 </body>
 </html>

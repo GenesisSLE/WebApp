@@ -4,37 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+        <title>Menú</title>
+            <link rel="stylesheet" href="css/stylenotasform.css">
+            <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </head>
+
 <body id="body">
-
-<div class = "cntrform">
-                <div class="previewcntrform">
+            <div class="previewcntrform">
+                <div class = "campo">
                     <div class = "tipos">
-                        <h4 class="tipo">Tipo</h4><h4 class="fecha">Fecha</h4><h4 class="nota">Nota</h4>
+                        <span class="tipo">Tipo</span>
+                        <span class="nota">Nota</span>
                     </div>
-                </div>
+            
 
-                <div class="formulario">
-                    <form method = "post">
-                        <input class="formtipo" type="radio" name="tipo" required placeholder="Tipo">
-                        <input class="formtipo" type="radio" name="tipo1" required placeholder="Tipo">
-                        <input class="formnota" type="number" name="nota" min="1" max="12" required placeholder="Nota">
-
-                        <label>
-    <input type="checkbox" class="radio" value="1" name="fooby[2][]" />Tiger</label>
-  <label>
-    <input type="checkbox" class="radio" value="1" name="fooby[2][]" />Sloth</label>
-  <label>
-    <input type="checkbox" class="radio" value="1" name="fooby[2][]" />Cheetah</label>
-</div>
+                    <form method = "post" class="formulario">
+                        <div class="formtipo">
+                            <input type="radio" name="check1" required placeholder="Tipo">
+                            <input type="radio" name="check1" required placeholder="Tipo">
+                        </div>
+                        
+                        <div class = "divnota">
+                            <input class="formnota" type="number" name="nota" min="1" max="12">
+                        </div>
                     </form>
                 </div>
-</div>
 
+                <div class= "btnguardar">
+                    <img src="img/disquete.png" height="100%" width="100%">
+                </div>
+
+                <div class = "txttipodenota">
+                    <p>T P</p>
+                </div>
+            </div>
+
+<script src="app.js"></script>
 </body>
 </html>
