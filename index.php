@@ -16,10 +16,10 @@
 <div class="logo"> <img class="classLogo"src="img/logo1.png"></div>
     <div class ="form">
         <form action="" id="formlg" method = "post">
-            <input class="usr" type="text" name="usuariolg" required placeholder="Usuario"
+            <input class="usr" id="mail"type="text" name="usuariolg" required placeholder="Mail"
                 oninvalid="this.setCustomValidity('Falta un usuario!')"
                 oninput="this.setCustomValidity('')"/><br>
-            <input class="pwd" type="password" name="passlg" required placeholder="Contraseña"
+            <input id="contrasena"class="pwd" type="password" name="passlg" required placeholder="Contraseña"
                 oninvalid="this.setCustomValidity('Falta una contraseña!')"
                 oninput="this.setCustomValidity('')"/><br>
             <input class="BtLogin" type="submit" value="Iniciar sesion" name="botonlg"> 

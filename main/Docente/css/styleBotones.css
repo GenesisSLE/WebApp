@@ -60,6 +60,7 @@
 .pulse {
 --color: #000000;
   --hover: #21c5c7;
+     cursor: pointer;
 }
 
 .close {
@@ -71,6 +72,8 @@
 .raise {
   --color: #000000;
   --hover: #21c5c7;
+     cursor: pointer; 
+     
 }
 
 .up {
