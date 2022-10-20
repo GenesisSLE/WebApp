@@ -1,90 +1,66 @@
 jQuery(document).on('submit','#formlg',function(event){
 	event.preventDefault();
 
-	jQuery.ajax({
+ var mail = $("#mail").val();
+
+	jQuery.ajax({           
 		url:'main/login.php',
 		type:'POST',
 		dataType:'json',
 		data:$(this).serialize(),
-		beforeSend: function(){
-			$('.BtLogin').val('Validando...')
-		}
-	})
-.done(function(respuesta){
+		  success: function(response){
+            let Usuario= response;
+            
 
-	console.log(respuesta);
-	if(!respuesta.error){
-		if(respuesta.tipo == 1){
-			const Toast = Swal.mixin({
-				toast: true,
-				position: 'top-end',
-				showConfirmButton: false,
-				timer: 3000,
-				timerProgressBar: true,
-				didOpen: (toast) => {
-				  toast.addEventListener('mouseenter', Swal.stopTimer)
-				  toast.addEventListener('mouseleave', Swal.resumeTimer)
-				}
-			  })
-			  
-			  Toast.fire({
-				icon: 'success',
-				title: 'Bienvenido!'
-			  })
-			setTimeout(function(){
-				location.href = 'main/admin/menuAdmin.php';
-			},3000);
-		}else if(respuesta.tipo == 3){
-			const Toast = Swal.mixin({
-				toast: true,
-				position: 'top-end',
-				showConfirmButton: false,
-				timer: 3000,
-				timerProgressBar: true,
-				didOpen: (toast) => {
-				  toast.addEventListener('mouseenter', Swal.stopTimer)
-				  toast.addEventListener('mouseleave', Swal.resumeTimer)
-				}
-			  })
-			  
-			  Toast.fire({
-				icon: 'success',
-				title: 'Bienvenido!'
-			  })
+            if(Usuario[0].Estudiante==1){
+            	
+ window.location.href = "UsuarioEnProgreso.html";
+            }
+            if(Usuario[0].Coordinador==1){
+            
+ window.location.href = "UsuarioEnProgreso.html";
+            }
+            if(Usuario[0].Secretaria==1){
+          
+ window.location.href = "UsuarioEnProgreso.html";
+            }
+      
+            if(Usuario[0].Adscripta==1){
+            	
+ window.location.href = "UsuarioEnProgreso.html";
+            }
+            if(Usuario[0].Profesor==1){
+                localStorage.getItem(Usuario[0].cedula);
+                const Toast = Swal.mixin({
+                toast: true,
+                position: 'top-end',
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true,
+                didOpen: (toast) => {
+                  toast.addEventListener('mouseenter', Swal.stopTimer)
+                  toast.addEventListener('mouseleave', Swal.resumeTimer)
+                }
+              })
+              
+              Toast.fire({
+                icon: 'success',
+                title: 'Bienvenido!'
+              })
 
-			setTimeout(function(){
-				location.href = 'main/Usuario/usuario.html';
-			},3000);
-		}
-	}else{
-		$('.error').slideUp('slow');
+            setTimeout(function(){
+                location.href = 'main/Docente/listadoDeLibretas.html';
+            },3000);
+        
+            	
 
-		const Toast = Swal.mixin({
-			toast: true,
-			position: 'top-end',
-			showConfirmButton: false,
-			timer: 3000,
-			timerProgressBar: true,
-			didOpen: (toast) => {
-			  toast.addEventListener('mouseenter', Swal.stopTimer)
-			  toast.addEventListener('mouseleave', Swal.resumeTimer)
-			}
-		  })
-		  
-		  Toast.fire({
-			icon: 'error',
-			title: 'Error!'
-		  })
-		setTimeout(function(){
+            }
+             if(Usuario[0].Inspectora==1){
+            	
+                window.location.href = "UsuarioEnProgreso.html";
+            }
 
-		},3000);
-		$('.botonlg').val('Iniciar Sesion')
-	}
-})
-.fail(function(resp){
-	console.log(resp.responseText);
-})
-.always(function(){
-	console.log("complete");
-});
+            
+            }
+        });
 });
