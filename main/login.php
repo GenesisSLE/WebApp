@@ -4,7 +4,7 @@ require 'conexion.php';
 
 sleep(1);
 
-$usuarios = $mysqli->query("SELECT cedula,P.mail, pri_nom, P.contrasena, if (D.cedProf is null, 0, 1) as Profesor, if (A.cedAds is null, 0, 1) as Adscripta,
+$usuarios = $mysqli->query("SELECT cedula,P.mail, P.contrasena, if (D.cedProf is null, 0, 1) as Profesor, if (A.cedAds is null, 0, 1) as Adscripta,
  if (C.cedCoor is null, 0, 1) as Coordinador, if (S.cedSec is null, 0, 1) as Secretaria, 
  if (I.cedIns is null, 0, 1) as Inspectora, if (E.cedEst is null, 0, 1) as Estudiante
  from Persona P 
@@ -18,7 +18,6 @@ if($usuarios){
             while($row = mysqli_fetch_assoc($usuarios)) {
             $json[] = array(
                'cedula' => $row['cedula'],
-               'pri_nom' => $row['pri_nom'],
               'Profesor' => $row['Profesor'],
               'Adscripta' => $row['Adscripta'],
               'Coordinador' => $row['Coordinador'],
