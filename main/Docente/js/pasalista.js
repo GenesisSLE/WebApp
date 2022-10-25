@@ -61,7 +61,7 @@ function Falta(){
                 $('#cont').append(modulo)
 				contador++;
             }else{
-                document.getElementById('ocultando').style.display='';
+                document.getElementById('ocultando').style.display=rotate('-90deg');
             }
             };
 function Presente(){
