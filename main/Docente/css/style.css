@@ -33,7 +33,12 @@ header{
     top: 0;
     z-index: 200;
 }
+.cositas{
 
+    width: 300px;
+    height: 50px;
+    background-color: whitesmoke;
+}
 .icon__menu{
     width: 50px;
     height: 100%;
@@ -157,7 +162,7 @@ right: 16px;
     width: 250px;
 }
 .cont_Div{
-    width:950px;
+    width:1195px;
     height: 787px;
  
     position: relative; 
@@ -167,7 +172,6 @@ right: 16px;
 
 }
 .cont_Div::-webkit-scrollbar {
-    appearance: none;
     -webkit-appearance: none;
 }
 
@@ -189,33 +193,52 @@ right: 16px;
     border: 2px solid #f1f2f3;
 }
 .lineaUWU{
-    width: 1070px;
+    width: 1569px;
     height: 1px;
     background-color: #dddddd;
     position: fixed;
-    bottom: 90px;
+    bottom: 83px;
     left: 0px;
 }
-.estado{
+div.estadoFalta{
 width: 300px;
 height: 26px;
 position: relative;
 top: -70px;
-right: -579px;
+right: -780px;
 background-color:#db2727;
+border-radius: 10px;
+}
+.estadoPresente{
+width: 300px;
+height: 26px;
+position: relative;
+top: -70px;
+right: -780px;
+background-color:green;
+border-radius: 10px;
+}
+.estadoLlegaTarde{
+width: 300px;
+height: 26px;
+position: relative;
+top: -70px;
+right: -780px;
+background-color:yellow;
 border-radius: 10px;
 }
 .cont_Div::-webkit-scrollbar-track {
     border-radius: 10px;  
 }
 .pasajeListo{
-        width: 901px;
+        width: 1127px;
     height: 57px;
     background-color: white;
     border: 1px black solid;
     border-radius: 10px;
     margin-bottom:20px;
     margin-left:23px;
+    box-shadow: 0px 0px 2px 0px;
 }
 .cont_Div_move{
     width:768px;
@@ -390,11 +413,12 @@ div.btnCerrarSesion{
     left: 210px;
 }
 .triangulito{
-    width: 20px;
+   width: 20px;
     height: 20px;
     position: relative;
-    top: 4px;
-    left: 2px;
+    top: 3px;
+    left: 5px;
+    transform: rotate(-90deg);
 }
 
 
@@ -429,6 +453,36 @@ div.btnCerrarSesion{
 .mystupidass{
     border-radius: 15px;
 }
+.DatosEspecificos{
+    position: relative;
+    top: -485px;
+    left: 59px;
+    background-color: white;
+    width: 253px;
+    height: 80px;
+    border-radius:9px;
+    border: 1px black solid;
+}
+.nombreCompleto{
+    width: 250px;
+    height: 30px;
+margin-left:4px ;
+}
+.Promedio{
+   width: 250px;
+    height: 30px;
+margin-left:4px ; 
+}
+.nombreCompleto h1{
+    font-size: 14px;
+
+}
+.lineawadw{
+   width: 250px;
+   height: 1px;
+   background-color: black;
+   position: relative;
+   top: -7px;
 
 div.Princi{
     background-color:white;
@@ -512,7 +566,7 @@ vertical-align:middle;
 .previewcntr1{
     display: inline-block;
     position: relative;
-    border: 3px solid black;
+    border: 5px solid black;
     border-radius: 20px; 
     width: 250px;
     height: 300px;
@@ -585,7 +639,7 @@ div.indPagina{
     position: absolute;
 width: 155px;
 height: 43px;
-right: 0px;
+right: 0%;
 top: 34px;
 
 background: #21C5C7;
@@ -628,101 +682,16 @@ margin-left: 33px;
     font-family:arial,sans-serif;
     color:#fff;
 }
+div.movBoton{
+  position: fixed;
+bottom: 100px;
+left: 500px;
 
+}
 div.aaDiv{
 position: fixed;
 right: 0px;
 bottom: 0px;
 width: 300px;
 height: 100%;
-}
-
-
-.previewcntrform{
-    display: inline-block;
-    background-color: #21c5c7;
-    position: absolute;
-    border: 4px solid black;
-    border-radius: 20px; 
-    width: 220px;
-    height: 100px;
-    left: 5%;
-    margin-right: 20px;
-}
-
-.previewcntrform h2{
-    top: -5%;
-    left: 5%;
-    position: absolute;
-    text-align: center;
-}
-
-.tipos{
-    position: relative;
-    background-color: #FFFFFF;
-    border: 3px solid black;
-    border-radius: 30px;
-    width: 107px;
-    height: 32px;
-    top: 5px;
-    justify-content: center;
-    font-weight: bold;
-}
-
-.tipo{
-    position: relative;
-    left:8px;
-}
-
-.nota{
-    position: relative;
-    left: 18px;
-}
-
-.formulario{
-    display: flex;
-    position: relative;
-    top: 7px;
-}
-
-.formtipo{
-    position: relative;
-    left: 10px;
-}
-
-.formnota{
-    width: 40px;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.divnota{
-    position: relative;
-    left: 26px;
-}
-
-.campo{
-    position: relative;
-    top: 10px;
-    left: 11px;
-    width: 113px;
-    height: 70px;
-}
-
-.btnguardar{
-    position: relative;
-    background-color: #FFFFFF;
-    border: 3px solid black;
-    border-radius: 30px;
-    width: 80px;
-    height: 71px;
-    top: -60px;
-    left: 123px;
-}
-
-.txttipodenota{
-    position: relative;
-    width: 30px;
-    top: -71px;
-    left: 26px;
 }

@@ -1,0 +1,15 @@
+.contenedorDeDivs{
+width: 1050px;
+height: 600px;
+position: fixed;
+right: 100px;
+top: 170px;
+background-color: red;
+}
+.cajitas{
+	width: 328px;
+	height: 600px;
+	background-color: black;
+	display: inline-block;
+	margin-right: 17px;
+}

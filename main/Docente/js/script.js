@@ -1,6 +1,7 @@
 //Ejecutar función en el evento click
 document.getElementById("btn_open").addEventListener("click", open_close_menu);
-
+document.getElementById('NotasAlumno').style.display='none';
+document.getElementById('DatosEspecificos').style.display='none';
 //Declaramos variables
 var side_menu = document.getElementById("menu_side");
 var btn_open = document.getElementById("btn_open");
@@ -79,3 +80,32 @@ window.addEventListener("resize", function(){
     }
 
 });
+var funciona=1;
+function Prueba(){
+    if(funciona%2==0){
+         
+    document.getElementById('NotasAlumno').style.display='none';
+     
+    }
+    if(funciona%2!=0){
+
+    document.getElementById('NotasAlumno').style.display='';
+    }
+funciona++;
+};
+var funciona2=1;
+function InfoEspecifica(){
+
+    if(funciona2%2==0){
+         
+    document.getElementById('DatosEspecificos').style.display='none';
+     
+    }
+    
+    if(funciona2%2!=0){
+
+    document.getElementById('DatosEspecificos').style.display='';
+    }
+funciona2++;
+}
+

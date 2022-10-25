@@ -1,9 +1,9 @@
 <?php
 
-$con = mysqli_connect("localhost","root","","genesisdata");
+$con = mysqli_connect("localhost","root","","Ejemplo");
 
-    $Nombre = $_POST['NombreA'];
-    $Gmail = $_POST['GmailA'];
+    $nota = $_POST['nota'];
+    $Tipo = $_POST['Tipo'];
     $pass = $_POST['contra'];
 
 

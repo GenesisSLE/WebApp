@@ -2,20 +2,24 @@
 
 try {
 
-    $conexion = new PDO("mysql:host=localhost;port=3306;dbname=genesisdata", "root", "");
+    $conexion = new PDO("mysql:host=localhost;port=3306;dbname=sys", "root", "");
     $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 
-    $res = $conexion->query('SELECT * FROM libretas') or die(print($conexion->errorInfo()));
+    $res = $conexion->query(" SELECT A.nombre, G.grado, G.orientacion from controladoPor C
+join Profesor P on C.cedProf = P.cedProf
+join Cursa Cu on C.idCursa = Cu.idCursa
+join Asignatura A on C.idMat = A.idMat
+join Grupo G on G.idGrupo = C.idGrupo") or die(print($conexion->errorInfo()));
 
     $data = [];
 
     while($item = $res->fetch(PDO::FETCH_OBJ)) {
 
         $data[] = [
-            'Nombre' => $item->Nombre,
-            'Grado' => $item->Grado,
-            'Curso' => $item->Curso
+            'nombre' => $item->nombre,
+            'grado' => $item->grado,
+            'orientacion' => $item->orientacion
            
         ];
 
@@ -29,3 +33,4 @@ try {
     die();
 
 }
+?>
