@@ -3,7 +3,7 @@
 
         $query = "SELECT nombre,nroLista FROM pasandolista";
         $result = mysqli_query($conn, $query);
-     
+     echo $result;
        if($result){
             while($row = mysqli_fetch_assoc($result)) {
             $json[] = array(
@@ -14,5 +14,8 @@
             };
         };
             echo json_encode($json);
+          
+    
+ 
 ?> 
 
