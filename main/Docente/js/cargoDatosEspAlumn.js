@@ -4,7 +4,7 @@ getAll();
 console.log("hola");
 function getAll(){
 		$.ajax({
-	url: 'Pruebaphp.php',
+	url: 'AlumnEsp.php',
 			type: 'POST',
 			data: {
 				res: 1
@@ -13,7 +13,11 @@ function getAll(){
 			 $('#data').html(response);
 				let empleados = JSON.parse(response);
 				let ret = '';
-				
+				console.log(empleados);
+				if(empleados[0].PrimerNombre==null){empleados[0].PrimerNombre=''};
+				if(empleados[0].SegundoNombre==null){empleados[0].SegundoNombre=''};
+				console.log(empleados[0].PrimerNombre);
+
 				var nombre=empleados[0].PrimerNombre;
 				var Juicio=empleados[0].juicioMat;
 
