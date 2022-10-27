@@ -1,5 +1,5 @@
 document.getElementById('ocultando').style.display='none';
-var pasandolista;
+
 $(document).ready(function(){
     var id;
 
@@ -20,13 +20,9 @@ var contador=0;
             },
             success: function(response){
         pasandolista = JSON.parse(response);
-           EN(pasandolista);
 
-           
- 
-console.log(pasandolista);
             $('#nombreAlumno').html(pasandolista[contador].PrimerNombre);
-                $('#nroLista').html(pasandolista[contador].NumeroDeLista);
+            $('#nroLista').html(pasandolista[contador].NumeroDeLista);
 
             }
         })
@@ -36,16 +32,16 @@ console.log(pasandolista);
    
    
         });
-        function EN(pasandolista){
-            var contador=0;
-             console.log(pasandolista);
-
+    var pasandolista;
+     console.log(pasandolista);
+       
+            console.log(pasandolista[contador+1].PrimerNombre);
 
             var alumnosPresentes =new Array();
             var alumnosFaltantes =new Array();
             var alumnosLlegaTarde =new Array(); 
-            
-console.log(pasandolista[contador+1].PrimerNombre);
+            var contador=0;
+        
 
 function Falta(){
 
@@ -53,7 +49,7 @@ function Falta(){
 
            console.log(contador);
                 console.log(pasandolista.length);
-                alumnosFaltantes.push(pasandolista[contador].PrimerNombre);
+                alumnosFaltantes.push(pasandolista[contador].CedulaEstudiante);
                 
                 $('#nombreAlumno').html(pasandolista[contador+1].PrimerNombre);
                 $('#nroLista').html(pasandolista[contador+1].NumeroDeLista);
@@ -74,7 +70,7 @@ function Falta(){
 function Presente(){
 
 if(contador<(pasandolista.length)){   
-                alumnosPresentes.push(pasandolista[contador].PrimerNombre);
+                alumnosPresentes.push(pasandolista[contador].CedulaEstudiante);
                 
                  
               $('#nombreAlumno').html(pasandolista[contador+1].PrimerNombre);
@@ -96,7 +92,7 @@ document.getElementById('ocultando').style.display='';}
             };
                function LlegaTarde(){
     if(contador<(pasandolista.length)){
-                alumnosLlegaTarde.push(pasandolista[contador].PrimerNombre);
+                alumnosLlegaTarde.push(pasandolista[contador].CedulaEstudiante);
                
                 $('#nombreAlumno').html(pasandolista[contador+1].PrimerNombre);
                 $('#nroLista').html(pasandolista[contador+1].NumeroDeLista);
@@ -114,10 +110,31 @@ document.getElementById('ocultando').style.display='';}
                 }else{
 document.getElementById('ocultando').style.display='';}
             };
+
+            var alumnosFaltantes=JSON.stringify(arrayJS);
+            $.post("GuardoFalta.php",{arrayDeValores:alumnosFaltantes},function(data) {
+ 
+                // Mostramos el texto devuelto por el archivo php
+               
+            });
+
+            var alumnosPresentes=JSON.stringify(arrayJS);
+            $.post("GuardoAtiempo.php",{arrayDeValores:alumnosPresentes},function(data) {
+ 
+                // Mostramos el texto devuelto por el archivo php
+               
+            });
+             var alumnosLlegaTarde=JSON.stringify(arrayJS);
+            $.post("GuardoLlegadaTarde.php",{arrayDeValores:alumnosLlegaTarde},function(data) {
+ 
+                // Mostramos el texto devuelto por el archivo php
+               
+            });
            function GurdandoFaltas(){
             console.log("Faltan:")
             for (var i = 0; i < alumnosFaltantes.length; i++) {
                  console.log( alumnosFaltantes[i]);
+                
             }
  console.log("Presentes:")
             for (var i = 0; i < alumnosPresentes.length; i++) {
@@ -128,7 +145,7 @@ document.getElementById('ocultando').style.display='';}
                 console.log(alumnosLlegaTarde[i]);
             }
            }
-
-        }
+        
+        
    
 

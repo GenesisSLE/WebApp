@@ -149,7 +149,7 @@
         </table>
 
     </div>
-    <div class="botonCorrecciones"><h3>Calificaciones</h3></div>
+    <a href="Calificaciones.html"><div class="botonCorrecciones"><h3>Calificaciones</h3></div></a>
 <a href="antecedentes.html"><div class="botonAntecedentes"><h3>Antecedentes</h3></div></a>
 </div>
                 </div>

@@ -21,11 +21,13 @@ function getAll(){
                 console.log(Alumnos[0].PrimerNombre);
 
                 for (var i = 0; i < Alumnos.length ; i++) {
-                
+                var cedula=Alumnos[i].NumeroDeLista;
                 if(Alumnos[i].PrimerApellido==null){Alumnos[i].PrimerApellido=' '};
                 let ret = '<div class="contengoTodoAlumno">'+
                 '<div class="container">'+
-           '<img class="imagen" src="img/Persona2.png" onclick="GuardoCedula('+Alumnos[i].NumeroDeLista+')">'+
+                '<a href="Detalles del alumno.php">'+
+           '<img class="imagen" src="img/Persona2.png">'+
+           '</a>'+
              '<div class="nombre">'+
                     '<h1 class="nombrecito">'+Alumnos[i].PrimerNombre+' '+Alumnos[i].PrimerApellido+'</h1>'+
                 '</div>'+
