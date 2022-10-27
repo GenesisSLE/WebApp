@@ -23,11 +23,11 @@ border-radius: 11px;
 div.AntAdjuntados{
 		position: relative;
 	width: 1228px;
-height: 322px;
+height: 594px;
 left: 279px;
 top: 87px;
 
-background-color: #FDF0F0;
+background-color: #06eaed7d;
 border: 2px solid #000000;
 border-radius: 11px;
 box-shadow: 0px 0px 2px 1px;
@@ -73,8 +73,33 @@ div.tituloAdj h2{
 }
 .CampoTexto{
 	width: 100%;
-	height: 82%;
+	height: 90%;
 	resize: none;
 	font-size: 20px;
 
+}
+.botonSubirArchivo{
+	background-color: #36C9D4;
+	width: 70px;
+	height: 70px;
+	position:fixed;
+	bottom: 20px;
+    right: 100px;
+	border: 1px solid black;
+	border-radius: 100%;
+	cursor: pointer;
+}
+.subiendo{
+	    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.muevoTodo{
+	position: absolute;
+	left: 100px;
+	top: -20px;
 }

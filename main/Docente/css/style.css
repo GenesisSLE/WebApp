@@ -12,7 +12,37 @@
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
+.cont_Div2{
+position: absolute;
+left: 200px;
+width: 87%;
+height: 90%;
 
+    overflow-y: scroll;
+
+}
+.cont_Div2::-webkit-scrollbar {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.cont_Div2::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.cont_Div2::-webkit-scrollbar-button:increment,.cont_Div::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.cont_Div2::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.cont_Div2::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
 body{
     margin-left: 80px;
     margin-top: 80px;
@@ -172,6 +202,7 @@ right: 16px;
 
 }
 .cont_Div::-webkit-scrollbar {
+    appearance: none;
     -webkit-appearance: none;
 }
 
@@ -350,20 +381,20 @@ div.btnCerrarSesion{
   }
 
 .container{
-    position: relative;
+
     border-radius: 20px;
     background: #21c5c7; 
     width: 250px;
     height: 300px;
-    left: 5%;
+
     cursor: pointer;
     box-shadow: 0px 0px 3px 1px;
   }
   .imagen{
-      width: 250px;
-      height: 250px;
-      border-radius: 20px;
-  
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 8px 17px;
+    border-top-right-radius: 8px 17px;
   }
 
   .nombre{
@@ -432,6 +463,14 @@ div.btnCerrarSesion{
     left: 5%;
 }
 
+.contengoTodoAlumno{
+    margin-top: 2px;
+    margin-left: 40px;
+    width: 320px;
+    height: 312px;
+    display: inline-block;
+}
+
 .nombrepreview{
     position: absolute;
     border: 4px solid black;
@@ -443,6 +482,11 @@ div.btnCerrarSesion{
     justify-content: center;
 }
 
+.GuardarAnt{
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
 .nombrepreview h4{
     position: absolute;
     top:-45%;
@@ -454,35 +498,39 @@ div.btnCerrarSesion{
     border-radius: 15px;
 }
 .DatosEspecificos{
-    position: relative;
-    top: -485px;
-    left: 59px;
+    position: absolute;
+    top: 301px;
+    left: 79px;
     background-color: white;
     width: 253px;
     height: 80px;
-    border-radius:9px;
+    border-radius: 9px;
     border: 1px black solid;
+    opacity: 0;
 }
 .nombreCompleto{
     width: 250px;
     height: 30px;
-margin-left:4px ;
+    margin-left:4px ;
 }
 .Promedio{
-   width: 250px;
+    width: 250px;
     height: 30px;
-margin-left:4px ; 
+    margin-left:4px ; 
 }
+
 .nombreCompleto h1{
     font-size: 14px;
 
 }
+
 .lineawadw{
    width: 250px;
    height: 1px;
    background-color: black;
    position: relative;
    top: -7px;
+}
 
 div.Princi{
     background-color:white;
@@ -501,19 +549,22 @@ div.reloj{
     border-radius:10px;
     
 }
+
 div.botonEnHora{
     background-color:#62cf43;
     position:relative;
     top:5px;
     height:20px;
-left:23px;
+    left:23px;
     width:188px;
     border-radius:20px;
 }
+
 div.botonEnHora p{
-font-size:15px;
-text-align:center;
+    font-size:15px;
+    text-align:center;
 }
+
 div.botonFalta{
     background-color:red;
     position:relative;
@@ -524,9 +575,10 @@ div.botonFalta{
     border-radius:20px;
 }
 div.botonFalta p{
-font-size:15px;
-text-align:center;
+    font-size:15px;
+    text-align:center;
 }
+
 div.botonLlegaTarde{
     background-color:#ff803c;
     position:relative;
@@ -537,10 +589,11 @@ div.botonLlegaTarde{
     border-radius:20px;
     
 }
+
 div.botonLlegaTarde p{
-font-size:15px;
-text-align:center;
-vertical-align:middle;
+    font-size:15px;
+    text-align:center;
+    vertical-align:middle;
 
 }
 

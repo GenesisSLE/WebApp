@@ -1,7 +1,7 @@
 //Ejecutar función en el evento click
 document.getElementById("btn_open").addEventListener("click", open_close_menu);
-document.getElementById('NotasAlumno').style.display='none';
-document.getElementById('DatosEspecificos').style.display='none';
+//document.getElementById('NotasAlumno').style.opacity='1';
+//document.getElementById('DatosEspecificos').style.opacity='1';
 //Declaramos variables
 var side_menu = document.getElementById("menu_side");
 var btn_open = document.getElementById("btn_open");
