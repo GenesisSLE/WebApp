@@ -137,14 +137,13 @@ body{
     box-shadow: 4px 4px 4px rgba(0, 85, 134, 0.25);
 }
 
-.container2{
+.container3{
     position: absolute;
-    right: -100px;
+    right: -50px;
     min-width: 1500px;
     max-width: 1500px;
     min-height: 800px;
     max-height: 800px;
-    border-radius: 10px;
     text-align: center;
 }
 

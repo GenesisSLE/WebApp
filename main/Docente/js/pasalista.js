@@ -170,7 +170,10 @@ var hora=(`${year}/${month}/${day}`);
                 datatype: 'JSON',
                 data: {alumnosFaltantes: JSON.stringify(alumnosFaltantes),alumnosPresentes: JSON.stringify(alumnosPresentes),alumnosLlegaTarde: JSON.stringify(alumnosLlegaTarde),hora},
                 success: function(){
-                     alert("success:","Los alumnos se guardaron correctamente");
+                    
+                    window.alert("Lista guardada satisfactoriamente");
+                    
+                
                  },
                 failure: function(errMsg) {
                      alert("error:",errMsg);
