@@ -132,12 +132,7 @@
     
     
             <tbody class="tablilla"id="data">
-                <!--<tr>
-                    <td class="tabla"> Juan Amaral </td>
-                    <td class="tabla"> 098658079 </td>
-                    <td class="tabla"> juanira2013@gmail.com </td>
-                    <td class="tabla"> 10 </td>
-                </tr>-->
+             
     
     
     
@@ -149,7 +144,7 @@
         </table>
 
     </div>
-    <div class="botonCorrecciones"><h3>Calificaciones</h3></div>
+    <a href="Calificaciones.html"><div class="botonCorrecciones"><h3>Calificaciones</h3></div></a>
 <a href="antecedentes.html"><div class="botonAntecedentes"><h3>Antecedentes</h3></div></a>
 </div>
                 </div>

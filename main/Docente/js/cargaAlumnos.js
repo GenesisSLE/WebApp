@@ -1,12 +1,10 @@
 $(document).ready(function(){
-function GuardoCedula(NumeroDeLista){
-        console.log(NumeroDeLista);
-        
-    };
+
 getAll();
-console.log("hola");
+
   
 function getAll(){
+    
         $.ajax({
     url: 'Pruebaphp.php',
             type: 'POST',
@@ -16,16 +14,20 @@ function getAll(){
         success: function(response){
              $('#data').html(response);
                 let Alumnos = JSON.parse(response);
+                
+                
+               
                 console.log(Alumnos);
-                console.log(Alumnos.length);
+               
                 console.log(Alumnos[0].PrimerNombre);
 
                 for (var i = 0; i < Alumnos.length ; i++) {
+                var cedula=Alumnos[i].NumeroDeLista;
                 
                 if(Alumnos[i].PrimerApellido==null){Alumnos[i].PrimerApellido=' '};
                 let ret = '<div class="contengoTodoAlumno">'+
-                '<div class="container">'+
-           '<img class="imagen" src="img/Persona2.png" onclick="GuardoCedula('+Alumnos[i].NumeroDeLista+')">'+
+                '<div class="container">'+ 
+           '<img class="imagen" src="img/Persona2.png" onclick="GuardoAlumnoYredirecciono('+Alumnos[i].NumeroDeLista+')">'+         
              '<div class="nombre">'+
                     '<h1 class="nombrecito">'+Alumnos[i].PrimerNombre+' '+Alumnos[i].PrimerApellido+'</h1>'+
                 '</div>'+
@@ -71,7 +73,8 @@ function getAll(){
                
 
             }
+            
         })
     }
-  
+    
 });
