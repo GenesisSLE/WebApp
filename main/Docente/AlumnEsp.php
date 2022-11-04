@@ -3,8 +3,7 @@
 
 if( isset($_POST['data']) ) {
     $resultado = $_POST['data'];
-    echo json_encode($resultado);
-    exit;
+    
 }
 
 require_once 'conexion.php';
