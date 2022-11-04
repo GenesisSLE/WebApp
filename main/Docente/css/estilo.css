@@ -148,16 +148,16 @@ body{
 }
 
 .meses{
-    position: relative;
-    max-width: 300px;
-    min-width: 300px;
+    
+    width: 300px;
     max-height: 550px;
     min-height: 550px;
     border: 2px black solid;
     border-radius: 9px;
     text-align: center;
     margin-top: 70px;
-    left: 30px;
+    display: inline-block;
+    margin-left: 20px;
     box-shadow: 4px 4px 4px rgba(0, 85, 134, 0.25);
 }
 
@@ -225,6 +225,37 @@ body{
     color: #000000;
     font-size: 20px;
     padding: 8px;
+}
+.cont_Div3{
+    width: 1300px;
+    height: 800px;
+    position: absolute;
+    left: 300px;
+    overflow-y: scroll;
+   
+    top:150px;
+}
+.cont_Div3::-webkit-scrollbar {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.cont_Div3::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.cont_Div3::-webkit-scrollbar-button:increment,.cont_Div::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.cont_Div3::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.cont_Div3::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
 }
 .dato3{
     position: relative;

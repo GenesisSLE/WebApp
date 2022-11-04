@@ -1,4 +1,12 @@
 <?php
+
+
+if( isset($_POST['data']) ) {
+    $resultado = $_POST['data'];
+    echo json_encode($resultado);
+    exit;
+}
+
 require_once 'conexion.php';
 		$query = "SELECT P.pri_nom as PrimerNombre, P.seg_nom as SegundoNombre, P.pri_ape as PrimerApellido, P.seg_ape as
 SegundoApellido, P.cel as Celular, P.mail as Mail, Pe.juicioMat, avg(T.nota) as Promedio from Persona P

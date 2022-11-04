@@ -132,12 +132,7 @@
     
     
             <tbody class="tablilla"id="data">
-                <!--<tr>
-                    <td class="tabla"> Juan Amaral </td>
-                    <td class="tabla"> 098658079 </td>
-                    <td class="tabla"> juanira2013@gmail.com </td>
-                    <td class="tabla"> 10 </td>
-                </tr>-->
+             
     
     
     

@@ -3,12 +3,13 @@ $(document).ready(function(){
 getAll();
 console.log("hola");
 function getAll(){
+	var Cedula = localStorage.getItem("cedula");
+	var MandoCed = parseInt(Cedula);
+console.log(MandoCed);
 		$.ajax({
 	url: 'AlumnEsp.php',
 			type: 'POST',
-			data: {
-				res: 1
-			},
+			data: { data: MandoCed },
 		success: function(response){
 			 $('#data').html(response);
 				let empleados = JSON.parse(response);
