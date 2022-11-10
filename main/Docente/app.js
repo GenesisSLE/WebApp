@@ -11,6 +11,9 @@ $(document).ready(function(){
             pasandolista = JSON.parse(response);              
             console.log(pasandolista);
             console.log(pasandolista[0].nombre);
+            localStorage.setItem("nombreMateria", pasandolista[0].nombre);
+            localStorage.setItem("nombreMateria", pasandolista[0].grado);
+            localStorage.setItem("nombreMateria", pasandolista[0].orientacion);
   str='';
             str += `
         <br>

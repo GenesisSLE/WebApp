@@ -248,7 +248,7 @@ top: -86px;
     position: absolute;
     left: 300px;
     top:150px;
-    overflow-y: overlay;
+    overflow: overlay;
 }
 .cont_Div3::-webkit-scrollbar {
     appearance: none;

@@ -163,7 +163,7 @@ var year = today.getFullYear();
  
 
 var hora=(`${year}/${month}/${day}`);
- 
+    
             $.ajax({
                 type: "POST",
                 url: "GuardoFalta.php",
@@ -171,7 +171,7 @@ var hora=(`${year}/${month}/${day}`);
                 data: {alumnosFaltantes: JSON.stringify(alumnosFaltantes),alumnosPresentes: JSON.stringify(alumnosPresentes),alumnosLlegaTarde: JSON.stringify(alumnosLlegaTarde),hora},
                 success: function(){
                     
-                    window.alert("Lista guardada satisfactoriamente");
+                    Swal.fire('La lista se guardo satisfactoriamente');
                     
                 
                  },
