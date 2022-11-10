@@ -68,7 +68,7 @@
     </div>
     <main>
   <div id="cont" class="cont_Div3">
-         <div class="container3">
+            
            <div class="meses">
               <div class="mesesito">    
                <p class="Mes" id="Mes" style="font-size: 25px;">Enero</p>
@@ -93,15 +93,16 @@
 
           
            </div>
-<form style="position:relative;top: -50px;">
-    <input type="number" min="1"max="12" name="nota">
+<form style="position:relative;top: -50px;"method="POST">
+    <input type="number" min="1"max="12" name="nota" id="nota">
+    <input type="date" name="fecha" id="fecha">
     <label for="tipo">Tipo:</label>
 <select name="tipo" id="tipo">
-    <option value="rigatoni">Escrito</option>
-  <option value="dave">Oral</option>
+    <option value="Escrito">Escrito</option>
+  <option value="Oral">Oral</option>
 
 </select>
-    <input class="" type="submit" value="Guardar" name="GuardoNota"> 
+    <input type="submit" value="Guardar" id="save" name="GuardoNota"> 
 </form>
               </div> 
 
