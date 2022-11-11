@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Pasaje de lista</title>
+    <title>Calificaciones</title>
     <meta charset="UTF-8">
+       <link rel="icon" href="img/logo2.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estiloPasaje.css">
@@ -13,7 +14,7 @@
 
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </head>
-<body  >
+<body id="body" >
      
     <header>
         <div class="icon__menu">
@@ -44,9 +45,9 @@
             </a>
             
           
-            <a href="#">
+            <a href="Grupo.html">
                 <div class="option">
-<i class="fa-regular fa-pen-to-square"></i>              <h4>Visado</h4>
+<i class="fa-regular fa-pen-to-square"></i>              <h4>Grupo</h4>
                 </div>
             </a>
             <a href="planificacion.html">
@@ -78,7 +79,7 @@
                     <p class="tipo"> Tipo </p>
                 </div>
                 <div class="dato2">
-                    <p class="fecha"> Fecha </p>
+                    
                 </div>
                 <div class="dato3">
                     <p class="nota"> Nota </p>
@@ -95,7 +96,7 @@
            </div>
 <form style="position:relative;top: -50px;"method="POST">
     <input type="number" min="1"max="12" name="nota" id="nota">
-    <input type="date" name="fecha" id="fecha">
+    
     <label for="tipo">Tipo:</label>
 <select name="tipo" id="tipo">
     <option value="Escrito">Escrito</option>
@@ -118,7 +119,7 @@
     </main>
     <script src="js/jquery-3.6.1.js"></script>
     <script src="js/MuestroCalificaciones.js"></script>
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
   
     
 </body>

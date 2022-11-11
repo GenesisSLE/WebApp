@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grupo</title>
+       <link rel="icon" href="img/logo2.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  
+<link rel="stylesheet" href="css/stylePlan.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/stylenotasform.css">
+</head>
+<body id="body"  >
+     
+    <header>
+        <div class="icon__menu">
+            <i class="fas fa-bars" id="btn_open"></i>
+        </div>
+      <div style="position: fixed;left:850px"><button onclick="MuestroPromedioActual()" type="button" class="btn btn-info" style="margin-right:30px;">Promedios actuales</button><button onclick="MuestroHistorialFaltas()" type="button" class="btn btn-info"style="margin-right:30px;">Historial de faltas</button><button onclick="MuestroNotasAlumnos()"type="button" class="btn btn-info">Trabajos</button></div>
+    </header>
+
+    <div class="menu__side" id="menu_side">
+        <div class="name__page">
+             <img class ="loguitos"src="img/logo2.png">
+            <h4>Listype</h4>
+        </div>
+        <div class="options__menu"> 
+            <a href="ListAlumnoDoc.html"  >
+                <div class="option">
+<i class="fa-regular fa-clipboard" title="Alumnos"></i>
+                    <h4>Alumnos</h4>    
+                </div>
+            </a>
+            <a href="Pasaje de lista.html" >
+                <div class="option">
+          
+                   
+                   <i class="fa-regular fa-calendar-check" title="Lista"></i>
+                    <h4 >Lista</h4>
+                </div>
+            </a>
+            
+          
+            <a href="Grupo.html" class="selected">
+                <div class="option">
+<i class="fa-regular fa-pen-to-square"></i>              <h4>Grupo</h4>
+                </div>
+            </a>
+            <a href="planificacion.html" >
+                <div class="option">
+                    <i class="fa-regular fa-folder"></i>
+                    <h4>Planificacion</h4>
+                </div>
+            </a>
+                
+
+            <a href="Libretas.php">
+                <div class="option"style="position:relative;top:570px;">
+              <i class="fa-solid fa-door-open"></i>
+    <h4>Salir</h4>
+                </div>
+
+            </a>
+        </div>
+    </div>
+    <main>
+<div id="cont" class="cont_Div2">
+        
+
+<div id="promediosActuales">
+ <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th style="text-align: center;width: 200px;">Nro Lista</th>
+                    <th style="text-align: center;">Nombre</th>
+<th style="text-align: center;">Cedula</th>
+                    <th style="text-align: center;width: 200px;">Promedio</th>
+                    
+                  
+                    
+                </tr>
+            </thead>
+            <tbody id="data"></tbody>
+        </table>
+
+</div>
+<div id="HistorialFaltas">
+    
+    
+<table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th style="text-align: center;width: 200px;">Nro Lista</th>
+                    <th style="text-align: center;">Nombre</th>
+<th style="text-align: center;">Cedula</th>
+                    <th style="text-align: center;width: 200px;">Faltas totales</th>
+                    
+                  
+                    
+                </tr>
+            </thead>
+            <tbody id="data2"></tbody>
+        </table>
+
+
+
+</div>
+        </div>
+
+
+<div id="NotasPorAlumno">
+    
+    
+<table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th style="text-align: center;width: 200px;">Cedula</th>
+                    <th style="text-align: center;">Nombre</th>
+<th style="text-align: center;">Tipo</th>
+                    <th style="text-align: center;width: 200px;">Nota</th>
+                    <th style="text-align: center;width: 200px;">Fecha</th>
+                  
+                    
+                </tr>
+            </thead>
+            <tbody id="data3"></tbody>
+        </table>
+
+
+
+</div>
+        </div>
+    </main>
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/script.js"></script>
+     <script src="js/cargoPromedios.js"></script>
+      <script src="js/CargoFaltasT.js"></script>
+       <script src="js/CargoNotasPorAlumno.js"></script>
+</body>
+</html>
+
+
+
