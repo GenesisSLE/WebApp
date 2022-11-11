@@ -2,8 +2,9 @@
 <html>
 
 <head>
+    <link rel="icon" href="main/Docente/img/logo2.png">  
     <title>
-        LOGIN
+        Inicio
     </title>
     
     <meta charset="UTF-8">
