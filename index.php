@@ -30,7 +30,7 @@
  
 <script  src="js/jquery-3.6.1.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="js/Main.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
