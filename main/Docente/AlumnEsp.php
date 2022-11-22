@@ -13,7 +13,7 @@ join Estudiante E on E.cedEst = P.cedula
 join Pertenece Pe on Pe.cedEst = E.cedEst
 join Trabaja T on T.cedEst = E.cedEst
 where T.idGrupo = '2' and T.idMat = '2' and E.cedEst = '14'
-group by E.cedEst, Pe.juicioMat;";
+group by E.cedEst;";
 		$result = mysqli_query($conn, $query);
 		$json = array();
 		if($result) {
