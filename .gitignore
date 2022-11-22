@@ -2,3 +2,6 @@
 *.txt
 *.code-workspace
 .vs/
+*.zip
+*.rar
+*.7z
