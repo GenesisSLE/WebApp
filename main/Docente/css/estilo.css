@@ -15,8 +15,8 @@ body{
 
 .meses{
     position: relative;
-    max-width: 300px;
-    min-width: 300px;
+    max-width: 356px;
+    min-width: 356px;
     max-height: 550px;
     min-height: 550px;
     border: 2px black solid;
@@ -92,18 +92,7 @@ body{
     font-size: 20px;
     padding: 8px;
 }
-.dato3{
-    position: relative;
-    max-width: 34%;
-    min-width: 34%;
-    max-height: 40px;
-    min-height: 40px;
-    border-width: 0px 0px 2px 0px;
-    border-style: solid;
-    border-color: #000000;
-    left: 199px;
-    top: -124px;
-}
+
 .fecha{
     position: relative;
     color: #000000;
@@ -274,8 +263,8 @@ top: -86px;
 }
 .dato3{
     position: relative;
-    max-width: 34%;
-    min-width: 34%;
+    max-width: 45%;
+    min-width: 45%;
     max-height: 40px;
     min-height: 40px;
     border-width: 0px 0px 2px 0px;
